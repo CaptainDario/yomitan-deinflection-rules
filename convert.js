@@ -2,8 +2,7 @@
  * convert.js
  *
  * Converts every *-transforms.js file found under
- * yomitan/ext/js/language/ into a matching static *.json file in the
- * root of this repository.
+ * yomitan/ext/js/language/ into a matching static *.json file in rules/.
  *
  * Steps for each file:
  *   1. Copy it to a temporary file in this directory.
@@ -13,7 +12,7 @@
  *   5. Delete the temporary file.
  */
 
-import { readFileSync, writeFileSync, unlinkSync } from 'fs';
+import { readFileSync, writeFileSync, unlinkSync, mkdirSync } from 'fs';
 import { resolve, dirname, basename } from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
 import { globSync } from 'fs';
@@ -21,6 +20,9 @@ import { globSync } from 'fs';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const LANG_DIR  = resolve(__dirname, 'yomitan/ext/js/language');
 const TMP       = resolve(__dirname, 'temp-transforms.js');
+const OUT_DIR   = resolve(__dirname, 'rules');
+
+mkdirSync(OUT_DIR, { recursive: true });
 
 // Collect all *-transforms.js files, excluding the base language-transforms.js
 const sources = globSync(`${LANG_DIR}/**/*-transforms.js`)
@@ -29,7 +31,7 @@ const sources = globSync(`${LANG_DIR}/**/*-transforms.js`)
 
 for (const src of sources) {
     const name    = basename(src, '.js');           // e.g. japanese-transforms
-    const outFile = resolve(__dirname, `${name}.json`);
+    const outFile = resolve(OUT_DIR, `${name}.json`);
 
     // ── 1 & 2. Patch the import path ────────────────────────────────────────
     let source = readFileSync(src, 'utf8');
