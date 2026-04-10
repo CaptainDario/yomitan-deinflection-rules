@@ -1,0 +1,65 @@
+name: Update Transform Rules
+
+on:
+  schedule:
+    - cron: '0 4 * * 1'   # Every Monday at 04:00 UTC
+  workflow_dispatch:       # Allow manual runs
+
+jobs:
+  update-and-release:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write      # Required for pushing commits and creating releases
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Clone Yomitan (latest main)
+        run: git clone --depth 1 https://github.com/yomidevs/yomitan yomitan
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Generate rules JSONs
+        run: node convert.js
+
+      - name: Generate test JSONs
+        run: node convert-tests.js
+
+      - name: Commit updated files
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add rules/ tests/
+          # Only commit if something actually changed
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update rules and tests $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Set release tag
+        run: echo "RELEASE_TAG=$(date -u +%Y-%m-%d)" >> "$GITHUB_ENV"
+
+      - name: Delete existing release for today (if any)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Ignore errors — release/tag may not exist yet
+          gh release delete "$RELEASE_TAG" --yes 2>/dev/null || true
+          git push --delete origin "$RELEASE_TAG"   2>/dev/null || true
+
+      - name: Create release and upload rules
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.RELEASE_TAG }}
+          name: ${{ env.RELEASE_TAG }}
+          body: |
+            Automated weekly update of Yomitan language transform rules.
+            Generated from [yomidevs/yomitan](https://github.com/yomidevs/yomitan) on ${{ env.RELEASE_TAG }}.
+          files: rules/*.json
