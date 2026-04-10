@@ -1,0 +1,9 @@
+{
+  "name": "yomitan-deinflection-rules",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Converts Yomitan JS language transform rules to static JSON",
+  "scripts": {
+    "convert": "node convert.js"
+  }
+}
