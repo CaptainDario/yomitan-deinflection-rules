@@ -1,0 +1,5605 @@
+{
+  "language": "tl",
+  "conditions": {
+    "n": {
+      "name": "Noun",
+      "isDictionaryForm": true,
+      "subConditions": [
+        "num"
+      ]
+    },
+    "adj": {
+      "name": "Adjective",
+      "isDictionaryForm": true
+    },
+    "num": {
+      "name": "Numeral",
+      "isDictionaryForm": true
+    }
+  },
+  "transforms": {
+    "hyphenated": {
+      "name": "hyphenated",
+      "description": "hyphenated form of words",
+      "rules": [
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        }
+      ]
+    },
+    "-an": {
+      "name": "-an",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "an",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ran",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ahan",
+          "base": "a",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ehan",
+          "base": "e",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ihan",
+          "base": "i",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ohan",
+          "base": "o",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "uhan",
+          "base": "u",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "anan",
+          "base": "a",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "enan",
+          "base": "e",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "inan",
+          "base": "i",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "onan",
+          "base": "o",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "unan",
+          "base": "u",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "uhan",
+          "base": "o",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "unan",
+          "base": "o",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "-in": {
+      "name": "-in",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "in",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "rin",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ahin",
+          "base": "a",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ehin",
+          "base": "e",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ihin",
+          "base": "i",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ohin",
+          "base": "o",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "uhin",
+          "base": "u",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "anin",
+          "base": "a",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "enin",
+          "base": "e",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "inin",
+          "base": "i",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "onin",
+          "base": "o",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "unin",
+          "base": "u",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "uhin",
+          "base": "o",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "unin",
+          "base": "o",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "ma-": {
+      "name": "ma-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "ma",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "mar",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "pang-": {
+      "name": "pang-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "pang",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "pand",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "panl",
+          "base": "l",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "panr",
+          "base": "r",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "pans",
+          "base": "s",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "pant",
+          "base": "t",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "pamb",
+          "base": "b",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "pamp",
+          "base": "p",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "pangalawa",
+          "base": "dalawa",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "num"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "pangatlo",
+          "base": "tatlo",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "num"
+          ]
+        }
+      ]
+    },
+    "ka-": {
+      "name": "ka-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "ka",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "kar",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "kaka-": {
+      "name": "kaka-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "kaka",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "kakar",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "ka-...-an": {
+      "name": "ka-...-an",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "mag-": {
+      "name": "mag-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "mag",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "mag- + rep1": {
+      "name": "mag- + rep1",
+      "rules": [
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "magka-": {
+      "name": "magka-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "magka",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "magkar",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "magkaka-": {
+      "name": "magkaka-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "magkaka",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "magkakar",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "mang- + rep1": {
+      "name": "mang- + rep1",
+      "rules": [
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "pa-": {
+      "name": "pa-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "pa",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "par",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "pa-...-an": {
+      "name": "pa-...-an",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "pag-": {
+      "name": "pag-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "pag",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "pag- + rep1": {
+      "name": "pag- + rep1",
+      "rules": [
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "pagka-": {
+      "name": "pagka-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "pagka",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "pagkar",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "pagkaka",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "pagkakar",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "pakiki-": {
+      "name": "pakiki-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "pakiki",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "pakikir",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "pakikipag-": {
+      "name": "pakikipag-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "pakikipag",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "pang- + rep1": {
+      "name": "pang- + rep1",
+      "rules": [
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "tag-": {
+      "name": "tag-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "tag",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "taga-": {
+      "name": "taga-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "taga",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "tagapag-": {
+      "name": "tagapag-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "tagapag",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "tagapang-": {
+      "name": "tagapang-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "tagapang",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "tagapand",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "tagapanl",
+          "base": "l",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "tagapanr",
+          "base": "r",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "tagapans",
+          "base": "s",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "tagapant",
+          "base": "t",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "tagapamb",
+          "base": "b",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "tagapamp",
+          "base": "p",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "i-": {
+      "name": "i-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "i",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "ika-": {
+      "name": "ika-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "ika",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "ikar",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "ikalawa",
+          "base": "dalawa",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "num"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "ikatlo",
+          "base": "tatlo",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "num"
+          ]
+        }
+      ]
+    },
+    "ipa-": {
+      "name": "ipa-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "ipa",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "ipag-": {
+      "name": "ipag-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "ipag",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "ipag- + rep1": {
+      "name": "ipag- + rep1",
+      "rules": [
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "ipang-": {
+      "name": "ipang-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "ipang",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "ipand",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "ipanl",
+          "base": "l",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "ipanr",
+          "base": "r",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "ipans",
+          "base": "s",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "ipant",
+          "base": "t",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "ipamb",
+          "base": "b",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "ipamp",
+          "base": "p",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "ma-...-an": {
+      "name": "ma-...-an",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "mag-...-an": {
+      "name": "mag-...-an",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "magkanda-": {
+      "name": "magkanda-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "magkanda",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "magkandar",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "magma-": {
+      "name": "magma-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "magma",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "magmar",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "magpa-": {
+      "name": "magpa-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "magpa",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "magpar",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "magpaka-": {
+      "name": "magpaka-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "magpaka",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "magpakar",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "magsi-": {
+      "name": "magsi-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "magsi",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "magsipag",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "makapang-": {
+      "name": "makapang-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "makapang",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "makapand",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "makapanl",
+          "base": "l",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "makapanr",
+          "base": "r",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "makapans",
+          "base": "s",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "makapant",
+          "base": "t",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "makapamb",
+          "base": "b",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "makapamp",
+          "base": "p",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "makapag-": {
+      "name": "makapag-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "makapag",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "maka-": {
+      "name": "maka-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "maka",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "makar",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "maki-": {
+      "name": "maki-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "maki",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "makir",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "makipag-": {
+      "name": "makipag-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "makipag",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "makipag-...-an": {
+      "name": "makipag-...-an",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "mang-": {
+      "name": "mang-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "mang",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "mand",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "manl",
+          "base": "l",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "manr",
+          "base": "r",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "mans",
+          "base": "s",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "mant",
+          "base": "t",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "mamb",
+          "base": "b",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "mamp",
+          "base": "p",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "mapa-": {
+      "name": "mapa-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "mapa",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "mapar",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "pa-...-in": {
+      "name": "pa-...-in",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "pag-...-an": {
+      "name": "pag-...-an",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "pang-...-an": {
+      "name": "pang-...-an",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "pag-...-in": {
+      "name": "pag-...-in",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "papang-...-in": {
+      "name": "papang-...-in",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "ma-...-in": {
+      "name": "ma-...-in",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "mapag-": {
+      "name": "mapag-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "mapag",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "naka-": {
+      "name": "naka-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "naka",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "nakar",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "nakaka-": {
+      "name": "nakaka-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "nakaka",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "nakakar",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "nakakapang-": {
+      "name": "nakakapang-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "nakakapang",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "nakakapand",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "nakakapanl",
+          "base": "l",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "nakakapanr",
+          "base": "r",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "nakakapans",
+          "base": "s",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "nakakapant",
+          "base": "t",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "nakakapamb",
+          "base": "b",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "nakakapamp",
+          "base": "p",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "naka- + rep1": {
+      "name": "naka- + rep1",
+      "rules": [
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "nakapang- + rep1": {
+      "name": "nakapang- + rep1",
+      "rules": [
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "pala-": {
+      "name": "pala-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "pala",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "palar",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "-ng": {
+      "name": "ng",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ng",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": []
+        }
+      ]
+    }
+  }
+}

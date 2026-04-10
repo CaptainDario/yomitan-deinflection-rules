@@ -1,0 +1,1174 @@
+{
+  "language": "de",
+  "conditions": {
+    "v": {
+      "name": "Verb",
+      "isDictionaryForm": true,
+      "subConditions": [
+        "vw",
+        "vs"
+      ]
+    },
+    "vw": {
+      "name": "Weak verb",
+      "isDictionaryForm": true
+    },
+    "vs": {
+      "name": "Strong verb",
+      "isDictionaryForm": true
+    },
+    "n": {
+      "name": "Noun",
+      "isDictionaryForm": true
+    },
+    "adj": {
+      "name": "Adjective",
+      "isDictionaryForm": true
+    }
+  },
+  "transforms": {
+    "nominalization": {
+      "name": "nominalization",
+      "description": "Noun formed from a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ung",
+          "base": "en",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "lung",
+          "base": "eln",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "rung",
+          "base": "rn",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "-bar": {
+      "name": "-bar",
+      "description": "-able adjective from a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "bar",
+          "base": "en",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "bar",
+          "base": "n",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "negative": {
+      "name": "negative",
+      "description": "Negation",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "un",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "adj"
+          ]
+        }
+      ]
+    },
+    "past participle": {
+      "name": "past participle",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "vw"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "vw"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "vw"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "vw"
+          ]
+        }
+      ]
+    },
+    "separated prefix": {
+      "name": "separated prefix",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        }
+      ]
+    },
+    "zu-infinitive": {
+      "name": "zu-infinitive",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "abzu",
+          "base": "ab",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "anzu",
+          "base": "an",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "aufzu",
+          "base": "auf",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "auszu",
+          "base": "aus",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "auseinanderzu",
+          "base": "auseinander",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "beizu",
+          "base": "bei",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "dazu",
+          "base": "da",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "dabeizu",
+          "base": "dabei",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "darzu",
+          "base": "dar",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "daranzu",
+          "base": "daran",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "dazwischenzu",
+          "base": "dazwischen",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "durchzu",
+          "base": "durch",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "einzu",
+          "base": "ein",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "emporzu",
+          "base": "empor",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "entgegenzu",
+          "base": "entgegen",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "entlangzu",
+          "base": "entlang",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "entzweizu",
+          "base": "entzwei",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "fehlzu",
+          "base": "fehl",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "fernzu",
+          "base": "fern",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "festzu",
+          "base": "fest",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "fortzu",
+          "base": "fort",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "freizu",
+          "base": "frei",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "gegenüberzu",
+          "base": "gegenüber",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "gleichzu",
+          "base": "gleich",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "heimzu",
+          "base": "heim",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "herzu",
+          "base": "her",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "herabzu",
+          "base": "herab",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "heranzu",
+          "base": "heran",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "heraufzu",
+          "base": "herauf",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "herauszu",
+          "base": "heraus",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "herbeizu",
+          "base": "herbei",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "hereinzu",
+          "base": "herein",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "herüberzu",
+          "base": "herüber",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "herumzu",
+          "base": "herum",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "herunterzu",
+          "base": "herunter",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "hervorzu",
+          "base": "hervor",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "hinzu",
+          "base": "hin",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "hinabzu",
+          "base": "hinab",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "hinaufzu",
+          "base": "hinauf",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "hinauszu",
+          "base": "hinaus",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "hineinzu",
+          "base": "hinein",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "hinterherzu",
+          "base": "hinterher",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "hinunterzu",
+          "base": "hinunter",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "hinwegzu",
+          "base": "hinweg",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "hinzuzu",
+          "base": "hinzu",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "hochzu",
+          "base": "hoch",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "loszu",
+          "base": "los",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "mitzu",
+          "base": "mit",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "nachzu",
+          "base": "nach",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "nebenherzu",
+          "base": "nebenher",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "niederzu",
+          "base": "nieder",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "stattzu",
+          "base": "statt",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "umzu",
+          "base": "um",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "vorzu",
+          "base": "vor",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "voranzu",
+          "base": "voran",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "vorauszu",
+          "base": "voraus",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "vorbeizu",
+          "base": "vorbei",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "vorüberzu",
+          "base": "vorüber",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "vorwegzu",
+          "base": "vorweg",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "wegzu",
+          "base": "weg",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "weiterzu",
+          "base": "weiter",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "wiederzu",
+          "base": "wieder",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "zuzu",
+          "base": "zu",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "zurechtzu",
+          "base": "zurecht",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "zurückzu",
+          "base": "zurück",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "zusammenzu",
+          "base": "zusammen",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "-heit": {
+      "name": "-heit",
+      "description": "1. Converts an adjective into a noun and usually denotes an abstract quality of the adjectival root. It is often equivalent to the English suffixes -ness, -th, -ty, -dom:\n\t schön (“beautiful”) + -heit → Schönheit (“beauty”)\n\t neu (“new”) + -heit → Neuheit (“novelty”)\n2. Converts concrete nouns into abstract nouns:\n\t Kind (“child”) + -heit → Kindheit (“childhood”)\n\t Christ (“Christian”) + -heit → Christenheit (“Christendom”)\n",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "heit",
+          "base": "",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "adj",
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "keit",
+          "base": "",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "adj",
+            "n"
+          ]
+        }
+      ]
+    }
+  }
+}

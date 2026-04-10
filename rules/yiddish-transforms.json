@@ -1,0 +1,996 @@
+{
+  "language": "yi",
+  "conditions": {
+    "v": {
+      "name": "Verb",
+      "isDictionaryForm": true,
+      "subConditions": [
+        "vpast",
+        "vpresent"
+      ]
+    },
+    "vpast": {
+      "name": "Verb, past tense",
+      "isDictionaryForm": false
+    },
+    "vpresent": {
+      "name": "Verb, present tense",
+      "isDictionaryForm": true
+    },
+    "n": {
+      "name": "Noun",
+      "isDictionaryForm": true,
+      "subConditions": [
+        "np",
+        "ns"
+      ]
+    },
+    "np": {
+      "name": "Noun, plural",
+      "isDictionaryForm": false
+    },
+    "ns": {
+      "name": "Noun, singular",
+      "isDictionaryForm": true
+    },
+    "adj": {
+      "name": "Adjective",
+      "isDictionaryForm": true
+    },
+    "adv": {
+      "name": "Adverb",
+      "isDictionaryForm": true
+    }
+  },
+  "transforms": {
+    "plural": {
+      "name": "plural",
+      "description": "plural form of a noun",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ס",
+          "base": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ן",
+          "base": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ים",
+          "base": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ער",
+          "base": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "עך",
+          "base": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ען",
+          "base": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "עס",
+          "base": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ות",
+          "base": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "נס",
+          "base": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ערען",
+          "base": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ענעס",
+          "base": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ענס",
+          "base": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ערס",
+          "base": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "סער",
+          "base": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        }
+      ]
+    },
+    "umlaut_plural": {
+      "name": "umlaut_plural",
+      "description": "plural form of a umlaut noun",
+      "rules": [
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        }
+      ]
+    },
+    "diminutive": {
+      "name": "diminutive",
+      "description": "diminutive form of a noun",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "טשיק",
+          "base": "",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "קע",
+          "base": "",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ל",
+          "base": "",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "עלע",
+          "base": "",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "diminutive_and_umlaut": {
+      "name": "diminutive_and_umlaut",
+      "description": "diminutive form of a noun with stem umlaut",
+      "rules": [
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "isInflected": {},
+          "deinflected": "",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "verb_present_singular_to_first_person": {
+      "name": "verb_present_singular_to_first_person",
+      "description": "Turn the second and third person singular form to first person",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "סט",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "vpresent"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ט",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "vpresent"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "נדיק",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "vpresent"
+          ]
+        }
+      ]
+    },
+    "verb_present_plural_to_first_person": {
+      "name": "verb_present_plural_to_first_person",
+      "description": "Turn the second plural form to first person plural form",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "טס",
+          "base": "נ",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "vpresent"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ט",
+          "base": "נ",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "vpresent"
+          ]
+        }
+      ]
+    }
+  }
+}

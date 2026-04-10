@@ -1,0 +1,1338 @@
+{
+  "language": "eu",
+  "conditions": {
+    "n": {
+      "name": "Noun",
+      "isDictionaryForm": true
+    },
+    "adj": {
+      "name": "Adjective",
+      "isDictionaryForm": true
+    },
+    "adv": {
+      "name": "Adverb",
+      "isDictionaryForm": true
+    },
+    "v": {
+      "name": "Verb",
+      "isDictionaryForm": true
+    }
+  },
+  "transforms": {
+    "Absolutive Singular": {
+      "name": "Absolutive Singular",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "a",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Absolutive Plural": {
+      "name": "Absolutive Plural",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ak",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Ergative Singular": {
+      "name": "Ergative Singular",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ak",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Ergative Plural": {
+      "name": "Ergative Plural",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ek",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Ergative Indefinite": {
+      "name": "Ergative Indefinite",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "k",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Dative Singular": {
+      "name": "Dative Singular",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ari",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Dative Plural": {
+      "name": "Dative Plural",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ei",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Dative Indefinite": {
+      "name": "Dative Indefinite",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ri",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Genitive Singular": {
+      "name": "Genitive Singular",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "aren",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Genitive Plural": {
+      "name": "Genitive Plural",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "en",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Genitive Indefinite": {
+      "name": "Genitive Indefinite",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ren",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Comitative Singular": {
+      "name": "Comitative Singular",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "arekin",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Comitative Plural": {
+      "name": "Comitative Plural",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ekin",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Comitative Indefinite": {
+      "name": "Comitative Indefinite",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "rekin",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Benefactive Singular": {
+      "name": "Benefactive Singular",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "arentzat",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj",
+            "adv"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Benefactive Plural": {
+      "name": "Benefactive Plural",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "entzat",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj",
+            "adv"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Benefactive Indefinite": {
+      "name": "Benefactive Indefinite",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "rentzat",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj",
+            "adv"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Instrumental Singular": {
+      "name": "Instrumental Singular",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "az",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj",
+            "adv"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Instrumental Plural": {
+      "name": "Instrumental Plural",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ez",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj",
+            "adv"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Instrumental Indefinite": {
+      "name": "Instrumental Indefinite",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "z",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj",
+            "adv"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Inessive Singular": {
+      "name": "Inessive Singular",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "an",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Inessive Plural": {
+      "name": "Inessive Plural",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "etan",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Inessive Indefinite": {
+      "name": "Inessive Indefinite",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "tan",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Allative Singular": {
+      "name": "Allative Singular",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ra",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Allative Plural": {
+      "name": "Allative Plural",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "etara",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Allative Indefinite": {
+      "name": "Allative Indefinite",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "tara",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Ablative Singular": {
+      "name": "Ablative Singular",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "tik",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Ablative Plural": {
+      "name": "Ablative Plural",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "etatik",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Ablative Indefinite": {
+      "name": "Ablative Indefinite",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "tatik",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Locative Genitive Singular": {
+      "name": "Locative Genitive Singular",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ko",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Locative Genitive Singular (Voiced)": {
+      "name": "Locative Genitive Singular (Voiced)",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "go",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Locative Genitive Plural": {
+      "name": "Locative Genitive Plural",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "etako",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Locative Genitive Indefinite": {
+      "name": "Locative Genitive Indefinite",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "tako",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Directional Allative Singular": {
+      "name": "Directional Allative Singular",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "rantz",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Directional Allative Plural": {
+      "name": "Directional Allative Plural",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "etarantz",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Directional Allative Indefinite": {
+      "name": "Directional Allative Indefinite",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "tarantz",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Terminative Allative Singular": {
+      "name": "Terminative Allative Singular",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "raino",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Terminative Allative Plural": {
+      "name": "Terminative Allative Plural",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "etaraino",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Terminative Allative Indefinite": {
+      "name": "Terminative Allative Indefinite",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "taraino",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Inessive Animate Singular": {
+      "name": "Inessive Animate Singular",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "arengan",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Inessive Animate Plural": {
+      "name": "Inessive Animate Plural",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "engan",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Inessive Animate Indefinite": {
+      "name": "Inessive Animate Indefinite",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "rengan",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Allative Animate Singular": {
+      "name": "Allative Animate Singular",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "arengana",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Allative Animate Plural": {
+      "name": "Allative Animate Plural",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "engana",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Allative Animate Indefinite": {
+      "name": "Allative Animate Indefinite",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "rengana",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Ablative Animate Singular": {
+      "name": "Ablative Animate Singular",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "arengandik",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Ablative Animate Plural": {
+      "name": "Ablative Animate Plural",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "engandik",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Ablative Animate Indefinite": {
+      "name": "Ablative Animate Indefinite",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "rengandik",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Directional Allative Animate Singular": {
+      "name": "Directional Allative Animate Singular",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "arenganantz",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Directional Allative Animate Plural": {
+      "name": "Directional Allative Animate Plural",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "enganantz",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Directional Allative Animate Indefinite": {
+      "name": "Directional Allative Animate Indefinite",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "renganantz",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Terminative Allative Animate Singular": {
+      "name": "Terminative Allative Animate Singular",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "arenganaino",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Terminative Allative Animate Plural": {
+      "name": "Terminative Allative Animate Plural",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "enganaino",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Terminative Allative Animate Indefinite": {
+      "name": "Terminative Allative Animate Indefinite",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "renganaino",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "Future Participle": {
+      "name": "Future Participle",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ko",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "Future Participle (Voiced)": {
+      "name": "Future Participle (Voiced)",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "go",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "Habitual to -tu": {
+      "name": "Habitual to -tu",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "tzen",
+          "base": "tu",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "Habitual to -tu (Soft)": {
+      "name": "Habitual to -tu (Soft)",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ten",
+          "base": "tu",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "Habitual to -i": {
+      "name": "Habitual to -i",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "tzen",
+          "base": "i",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "Habitual to -n": {
+      "name": "Habitual to -n",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ten",
+          "base": "n",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "Habitual to -si": {
+      "name": "Habitual to -si",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "sten",
+          "base": "si",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "Habitual to -tzi": {
+      "name": "Habitual to -tzi",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "zten",
+          "base": "tzi",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "Habitual to -tsi": {
+      "name": "Habitual to -tsi",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "sten",
+          "base": "tsi",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "Verbal Noun to -tu": {
+      "name": "Verbal Noun to -tu",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "tzea",
+          "base": "tu",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "Verbal Noun to -tu (Soft)": {
+      "name": "Verbal Noun to -tu (Soft)",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "tea",
+          "base": "tu",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "Verbal Noun to -i": {
+      "name": "Verbal Noun to -i",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "tzea",
+          "base": "i",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "Verbal Noun to -n": {
+      "name": "Verbal Noun to -n",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "tea",
+          "base": "n",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "Verbal Noun to -si": {
+      "name": "Verbal Noun to -si",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "stea",
+          "base": "si",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "Verbal Noun to -tzi": {
+      "name": "Verbal Noun to -tzi",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ztea",
+          "base": "tzi",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "Adverbial Participle to -tu": {
+      "name": "Adverbial Participle to -tu",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ta",
+          "base": "",
+          "conditionsIn": [
+            "adv"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "Adverbial Participle after n": {
+      "name": "Adverbial Participle after n",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "da",
+          "base": "",
+          "conditionsIn": [
+            "adv"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "Adverbial Participle to -i": {
+      "name": "Adverbial Participle to -i",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ita",
+          "base": "i",
+          "conditionsIn": [
+            "adv"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "Negative/Adverbial Participle 1": {
+      "name": "Negative/Adverbial Participle",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ik",
+          "base": "",
+          "conditionsIn": [
+            "adv"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "Negative/Adverbial Participle 2": {
+      "name": "Negative/Adverbial Participle 2",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "rik",
+          "base": "",
+          "conditionsIn": [
+            "adv"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "Adverbializer -ki": {
+      "name": "Adverbializer -ki",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ki",
+          "base": "",
+          "conditionsIn": [
+            "adv"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    }
+  }
+}

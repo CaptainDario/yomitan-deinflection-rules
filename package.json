@@ -4,6 +4,8 @@
   "type": "module",
   "description": "Converts Yomitan JS language transform rules to static JSON",
   "scripts": {
-    "convert": "node convert.js"
+    "convert": "node convert.js",
+    "convert-tests": "node convert-tests.js",
+    "convert-all": "node convert.js && node convert-tests.js"
   }
 }

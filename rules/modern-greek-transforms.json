@@ -1,0 +1,69 @@
+{
+  "language": "el",
+  "conditions": {
+    "v": {
+      "name": "Verb",
+      "isDictionaryForm": true
+    }
+  },
+  "transforms": {
+    "ξανα-": {
+      "name": "ξανα-",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "ξανα",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "ξανα",
+          "base": "α",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "ξανά",
+          "base": "έ",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "ξανά",
+          "base": "ά",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "ξανάπα",
+          "base": "είπα",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    }
+  }
+}

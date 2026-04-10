@@ -1,0 +1,6106 @@
+{
+  "language": "es",
+  "conditions": {
+    "n": {
+      "name": "Noun",
+      "isDictionaryForm": true,
+      "subConditions": [
+        "ns",
+        "np"
+      ]
+    },
+    "np": {
+      "name": "Noun plural",
+      "isDictionaryForm": false
+    },
+    "ns": {
+      "name": "Noun singular",
+      "isDictionaryForm": false
+    },
+    "v": {
+      "name": "Verb",
+      "isDictionaryForm": true,
+      "subConditions": [
+        "v_ar",
+        "v_er",
+        "v_ir"
+      ]
+    },
+    "v_ar": {
+      "name": "-ar verb",
+      "isDictionaryForm": false
+    },
+    "v_er": {
+      "name": "-er verb",
+      "isDictionaryForm": false
+    },
+    "v_ir": {
+      "name": "-ir verb",
+      "isDictionaryForm": false
+    },
+    "adj": {
+      "name": "Adjective",
+      "isDictionaryForm": true
+    }
+  },
+  "transforms": {
+    "plural": {
+      "name": "plural",
+      "description": "Plural form of a noun",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "s",
+          "base": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "es",
+          "base": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ces",
+          "base": "z",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ases",
+          "base": "ás",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "eses",
+          "base": "és",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ises",
+          "base": "ís",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "oses",
+          "base": "ós",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "uses",
+          "base": "ús",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "anes",
+          "base": "án",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "enes",
+          "base": "én",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ines",
+          "base": "ín",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ones",
+          "base": "ón",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "unes",
+          "base": "ún",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        }
+      ]
+    },
+    "feminine adjective": {
+      "name": "feminine adjective",
+      "description": "feminine form of an adjective",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "a",
+          "base": "o",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "a",
+          "base": "",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ana",
+          "base": "án",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ena",
+          "base": "én",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ina",
+          "base": "ín",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ona",
+          "base": "ón",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "asa",
+          "base": "ás",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "esa",
+          "base": "és",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "isa",
+          "base": "ís",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "osa",
+          "base": "ós",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        }
+      ]
+    },
+    "present indicative": {
+      "name": "present indicative",
+      "description": "Present indicative form of a verb",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "o",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "as",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "a",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "amos",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "áis",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "an",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "o",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "es",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "e",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "emos",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "éis",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "en",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "o",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "es",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "e",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "imos",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ís",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "en",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "uyo",
+          "base": "uir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "uyes",
+          "base": "uir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "uye",
+          "base": "uir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "uyen",
+          "base": "uir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tengo",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tienes",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tiene",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tenemos",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tenéis",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tienen",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "oigo",
+          "base": "oír",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "oyes",
+          "base": "oír",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "oye",
+          "base": "oír",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "oímos",
+          "base": "oír",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "oís",
+          "base": "oír",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "oyen",
+          "base": "oír",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "vengo",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "vienes",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "viene",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "venimos",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "venís",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "vienen",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "go",
+          "base": "guir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "jo",
+          "base": "ger",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "jo",
+          "base": "gir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "aigo",
+          "base": "aer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "zco",
+          "base": "cer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "zco",
+          "base": "cir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "hago",
+          "base": "hacer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "pongo",
+          "base": "poner",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "lgo",
+          "base": "lir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "lgo",
+          "base": "ler",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "quepo",
+          "base": "caber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "doy",
+          "base": "dar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "sé",
+          "base": "saber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "veo",
+          "base": "ver",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "soy",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "eres",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "es",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "somos",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "sois",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "son",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "estoy",
+          "base": "estar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "estás",
+          "base": "estar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "está",
+          "base": "estar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "estamos",
+          "base": "estar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "estáis",
+          "base": "estar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "están",
+          "base": "estar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "voy",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "vas",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "va",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "vamos",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "vais",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "van",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "he",
+          "base": "haber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "has",
+          "base": "haber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "ha",
+          "base": "haber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "hemos",
+          "base": "haber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "habéis",
+          "base": "haber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "han",
+          "base": "haber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "preterite": {
+      "name": "preterite",
+      "description": "Preterite (past) form of a verb",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "é",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "aste",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ó",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "amos",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "asteis",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "aron",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "í",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iste",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ió",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "imos",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "isteis",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ieron",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "í",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iste",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ió",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "imos",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "isteis",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ieron",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "qué",
+          "base": "car",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "gué",
+          "base": "gar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "cé",
+          "base": "zar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "í",
+          "base": "uir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fui",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuiste",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fue",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuimos",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuisteis",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fueron",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fui",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuiste",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fue",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuimos",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuisteis",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fueron",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "di",
+          "base": "dar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "diste",
+          "base": "dar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "dio",
+          "base": "dar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "dimos",
+          "base": "dar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "disteis",
+          "base": "dar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "dieron",
+          "base": "dar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "hice",
+          "base": "hacer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "hiciste",
+          "base": "hacer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "hizo",
+          "base": "hacer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "hicimos",
+          "base": "hacer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "hicisteis",
+          "base": "hacer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "hicieron",
+          "base": "hacer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "puse",
+          "base": "poner",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "pusiste",
+          "base": "poner",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "puso",
+          "base": "poner",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "pusimos",
+          "base": "poner",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "pusisteis",
+          "base": "poner",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "pusieron",
+          "base": "poner",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "dije",
+          "base": "decir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "dijiste",
+          "base": "decir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "dijo",
+          "base": "decir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "dijimos",
+          "base": "decir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "dijisteis",
+          "base": "decir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "dijeron",
+          "base": "decir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "vine",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "viniste",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "vino",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "vinimos",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "vinisteis",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "vinieron",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "quise",
+          "base": "querer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "quisiste",
+          "base": "querer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "quiso",
+          "base": "querer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "quisimos",
+          "base": "querer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "quisisteis",
+          "base": "querer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "quisieron",
+          "base": "querer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tuve",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tuviste",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tuvo",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tuvimos",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tuvisteis",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tuvieron",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "pude",
+          "base": "poder",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "pudiste",
+          "base": "poder",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "pudo",
+          "base": "poder",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "pudimos",
+          "base": "poder",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "pudisteis",
+          "base": "poder",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "pudieron",
+          "base": "poder",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "supe",
+          "base": "saber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "supiste",
+          "base": "saber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "supo",
+          "base": "saber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "supimos",
+          "base": "saber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "supisteis",
+          "base": "saber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "supieron",
+          "base": "saber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "estuve",
+          "base": "estar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "estuviste",
+          "base": "estar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "estuvo",
+          "base": "estar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "estuvimos",
+          "base": "estar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "estuvisteis",
+          "base": "estar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "estuvieron",
+          "base": "estar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "anduve",
+          "base": "andar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "anduviste",
+          "base": "andar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "anduvo",
+          "base": "andar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "anduvimos",
+          "base": "andar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "anduvisteis",
+          "base": "andar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "anduvieron",
+          "base": "andar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "imperfect": {
+      "name": "imperfect",
+      "description": "Imperfect form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "aba",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "abas",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "aba",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ábamos",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "abais",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "aban",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ía",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ías",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ía",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "íamos",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "íais",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ían",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ía",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ías",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ía",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "íamos",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "íais",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ían",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "eía",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "eías",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "eía",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "eíamos",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "eíais",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "eían",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "era",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "eras",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "era",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "éramos",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "erais",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "eran",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "iba",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "ibas",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "iba",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "íbamos",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "ibais",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "iban",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "veía",
+          "base": "ver",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "veías",
+          "base": "ver",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "veía",
+          "base": "ver",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "veíamos",
+          "base": "ver",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "veíais",
+          "base": "ver",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "veían",
+          "base": "ver",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "progressive": {
+      "name": "progressive",
+      "description": "Progressive form of a verb",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ando",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iendo",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iendo",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ayendo",
+          "base": "aer",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "eyendo",
+          "base": "eer",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "uyendo",
+          "base": "uir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "oyendo",
+          "base": "oír",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "yendo",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "imperative": {
+      "name": "imperative",
+      "description": "Imperative form of a verb",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "a",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "emos",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ad",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "e",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "amos",
+          "base": "ar",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ed",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "e",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "amos",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "id",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "diga",
+          "base": "decir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "sé",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "ve",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "ten",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "ven",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "haz",
+          "base": "hacer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "di",
+          "base": "decir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "pon",
+          "base": "poner",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "sal",
+          "base": "salir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "es",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "emos",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "éis",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "as",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "amos",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "áis",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "as",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "amos",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "áis",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        }
+      ]
+    },
+    "conditional": {
+      "name": "conditional",
+      "description": "Conditional form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ía",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ías",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ía",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "íamos",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "íais",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ían",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "diría",
+          "base": "decir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "dirías",
+          "base": "decir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "diría",
+          "base": "decir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "diríamos",
+          "base": "decir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "diríais",
+          "base": "decir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "dirían",
+          "base": "decir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "haría",
+          "base": "hacer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "harías",
+          "base": "hacer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "haría",
+          "base": "hacer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "haríamos",
+          "base": "hacer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "haríais",
+          "base": "hacer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "harían",
+          "base": "hacer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "pondría",
+          "base": "poner",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "pondrías",
+          "base": "poner",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "pondría",
+          "base": "poner",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "pondríamos",
+          "base": "poner",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "pondríais",
+          "base": "poner",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "pondrían",
+          "base": "poner",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "saldría",
+          "base": "salir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "saldrías",
+          "base": "salir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "saldría",
+          "base": "salir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "saldríamos",
+          "base": "salir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "saldríais",
+          "base": "salir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "saldrían",
+          "base": "salir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "tendría",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "tendrías",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "tendría",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "tendríamos",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "tendríais",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "tendrían",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "vendría",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "vendrías",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "vendría",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "vendríamos",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "vendríais",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "vendrían",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "querría",
+          "base": "querer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "querrías",
+          "base": "querer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "querría",
+          "base": "querer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "querríamos",
+          "base": "querer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "querríais",
+          "base": "querer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "querrían",
+          "base": "querer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "podría",
+          "base": "poder",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "podrías",
+          "base": "poder",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "podría",
+          "base": "poder",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "podríamos",
+          "base": "poder",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "podríais",
+          "base": "poder",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "podrían",
+          "base": "poder",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "sabría",
+          "base": "saber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "sabrías",
+          "base": "saber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "sabría",
+          "base": "saber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "sabríamos",
+          "base": "saber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "sabríais",
+          "base": "saber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "sabrían",
+          "base": "saber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "future": {
+      "name": "future",
+      "description": "Future form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "é",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ás",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "á",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "emos",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "éis",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "án",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "diré",
+          "base": "decir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "dirás",
+          "base": "decir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "dirá",
+          "base": "decir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "diremos",
+          "base": "decir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "diréis",
+          "base": "decir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "dirán",
+          "base": "decir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "haré",
+          "base": "hacer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "harás",
+          "base": "hacer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "hará",
+          "base": "hacer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "haremos",
+          "base": "hacer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "haréis",
+          "base": "hacer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "harán",
+          "base": "hacer",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "pondré",
+          "base": "poner",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "pondrás",
+          "base": "poner",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "pondrá",
+          "base": "poner",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "pondremos",
+          "base": "poner",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "pondréis",
+          "base": "poner",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "pondrán",
+          "base": "poner",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "saldré",
+          "base": "salir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "saldrás",
+          "base": "salir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "saldrá",
+          "base": "salir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "saldremos",
+          "base": "salir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "saldréis",
+          "base": "salir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "saldrán",
+          "base": "salir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tendré",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tendrás",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tendrá",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tendremos",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tendréis",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tendrán",
+          "base": "tener",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "vendré",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "vendrás",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "vendrá",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "vendremos",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "vendréis",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "vendrán",
+          "base": "venir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "present subjunctive": {
+      "name": "present subjunctive",
+      "description": "Present subjunctive form of a verb",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "e",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "es",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "e",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "emos",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "éis",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "en",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "a",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "as",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "a",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "amos",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "áis",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "an",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "a",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "as",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "a",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "amos",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "áis",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "an",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "dé",
+          "base": "dar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "des",
+          "base": "dar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "dé",
+          "base": "dar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "demos",
+          "base": "dar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "deis",
+          "base": "dar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "den",
+          "base": "dar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "esté",
+          "base": "estar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "estés",
+          "base": "estar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "esté",
+          "base": "estar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "estemos",
+          "base": "estar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "estéis",
+          "base": "estar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "estén",
+          "base": "estar",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "sea",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "seas",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "sea",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "seamos",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "seáis",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "sean",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "vaya",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "vayas",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "vaya",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "vayamos",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "vayáis",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "vayan",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "haya",
+          "base": "haber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "hayas",
+          "base": "haber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "haya",
+          "base": "haber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "hayamos",
+          "base": "haber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "hayáis",
+          "base": "haber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "hayan",
+          "base": "haber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "sepa",
+          "base": "saber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "sepas",
+          "base": "saber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "sepa",
+          "base": "saber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "sepamos",
+          "base": "saber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "sepáis",
+          "base": "saber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "sepan",
+          "base": "saber",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "imperfect subjunctive": {
+      "name": "imperfect subjunctive",
+      "description": "Imperfect subjunctive form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ara",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ase",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "aras",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ases",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ara",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ase",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "áramos",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ásemos",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "arais",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "aseis",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "aran",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "asen",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iera",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iese",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ieras",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ieses",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iera",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iese",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iéramos",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iésemos",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ierais",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ieseis",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ieran",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iesen",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iera",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iese",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ieras",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ieses",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iera",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iese",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iéramos",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iésemos",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ierais",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ieseis",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ieran",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iesen",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuera",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuese",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fueras",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fueses",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuera",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuese",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuéramos",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuésemos",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuerais",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fueseis",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fueran",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuesen",
+          "base": "ser",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuera",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuese",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fueras",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fueses",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuera",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuese",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuéramos",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuésemos",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuerais",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fueseis",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fueran",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "fuesen",
+          "base": "ir",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "participle": {
+      "name": "participle",
+      "description": "Participle form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ado",
+          "base": "ar",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ido",
+          "base": "er",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ido",
+          "base": "ir",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "oído",
+          "base": "oír",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "dicho",
+          "base": "decir",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "escrito",
+          "base": "escribir",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "hecho",
+          "base": "hacer",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "muerto",
+          "base": "morir",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "puesto",
+          "base": "poner",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "roto",
+          "base": "romper",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "visto",
+          "base": "ver",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "wholeWord",
+          "inflected": "vuelto",
+          "base": "volver",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "reflexive": {
+      "name": "reflexive",
+      "description": "Reflexive form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "arse",
+          "base": "ar",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "erse",
+          "base": "er",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "irse",
+          "base": "ir",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        }
+      ]
+    },
+    "pronoun substitution": {
+      "name": "pronoun substitution",
+      "description": "Substituted pronoun of a reflexive verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "arme",
+          "base": "arse",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "arte",
+          "base": "arse",
+          "conditionsIn": [
+            "v_ar"
+          ],
+          "conditionsOut": [
+            "v_ar"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "arnos",
+          "base": "arse",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "erme",
+          "base": "erse",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "erte",
+          "base": "erse",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ernos",
+          "base": "erse",
+          "conditionsIn": [
+            "v_er"
+          ],
+          "conditionsOut": [
+            "v_er"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "irme",
+          "base": "irse",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "irte",
+          "base": "irse",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "irnos",
+          "base": "irse",
+          "conditionsIn": [
+            "v_ir"
+          ],
+          "conditionsOut": [
+            "v_ir"
+          ]
+        }
+      ]
+    },
+    "pronominal": {
+      "name": "pronominal",
+      "description": "Pronominal form of a verb",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    }
+  }
+}

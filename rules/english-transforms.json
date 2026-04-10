@@ -1,0 +1,1228 @@
+{
+  "language": "en",
+  "conditions": {
+    "v": {
+      "name": "Verb",
+      "isDictionaryForm": true,
+      "subConditions": [
+        "v_phr"
+      ]
+    },
+    "v_phr": {
+      "name": "Phrasal verb",
+      "isDictionaryForm": true
+    },
+    "n": {
+      "name": "Noun",
+      "isDictionaryForm": true,
+      "subConditions": [
+        "np",
+        "ns"
+      ]
+    },
+    "np": {
+      "name": "Noun plural",
+      "isDictionaryForm": true
+    },
+    "ns": {
+      "name": "Noun singular",
+      "isDictionaryForm": true
+    },
+    "adj": {
+      "name": "Adjective",
+      "isDictionaryForm": true
+    },
+    "adv": {
+      "name": "Adverb",
+      "isDictionaryForm": true
+    }
+  },
+  "transforms": {
+    "plural": {
+      "name": "plural",
+      "description": "Plural form of a noun",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "s",
+          "base": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "es",
+          "base": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ies",
+          "base": "y",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ves",
+          "base": "fe",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ves",
+          "base": "f",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        }
+      ]
+    },
+    "possessive": {
+      "name": "possessive",
+      "description": "Possessive form of a noun",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "'s",
+          "base": "",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "s'",
+          "base": "s",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "past": {
+      "name": "past",
+      "description": "Simple past tense of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ed",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ed",
+          "base": "e",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ied",
+          "base": "y",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "cked",
+          "base": "c",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "bbed",
+          "base": "b",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "dded",
+          "base": "d",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "gged",
+          "base": "g",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "kked",
+          "base": "k",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "lled",
+          "base": "l",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "mmed",
+          "base": "m",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "nned",
+          "base": "n",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "pped",
+          "base": "p",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "rred",
+          "base": "r",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ssed",
+          "base": "s",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tted",
+          "base": "t",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "zzed",
+          "base": "z",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "laid",
+          "base": "lay",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "paid",
+          "base": "pay",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "said",
+          "base": "say",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "ing": {
+      "name": "ing",
+      "description": "Present participle of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ing",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ing",
+          "base": "e",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ying",
+          "base": "ie",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "cking",
+          "base": "c",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "bbing",
+          "base": "b",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "dding",
+          "base": "d",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "gging",
+          "base": "g",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "kking",
+          "base": "k",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "lling",
+          "base": "l",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "mming",
+          "base": "m",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "nning",
+          "base": "n",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "pping",
+          "base": "p",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "rring",
+          "base": "r",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ssing",
+          "base": "s",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tting",
+          "base": "t",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "zzing",
+          "base": "z",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "3rd pers. sing. pres": {
+      "name": "3rd pers. sing. pres",
+      "description": "Third person singular present tense of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "s",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "es",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ies",
+          "base": "y",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "interposed object": {
+      "name": "interposed object",
+      "description": "Phrasal verb with interposed object",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v_phr"
+          ]
+        }
+      ]
+    },
+    "archaic": {
+      "name": "archaic",
+      "description": "Archaic form of a word",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "'d",
+          "base": "ed",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "adverb": {
+      "name": "adverb",
+      "description": "Adverb form of an adjective",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ly",
+          "base": "",
+          "conditionsIn": [
+            "adv"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ily",
+          "base": "y",
+          "conditionsIn": [
+            "adv"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ly",
+          "base": "le",
+          "conditionsIn": [
+            "adv"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        }
+      ]
+    },
+    "comparative": {
+      "name": "comparative",
+      "description": "Comparative form of an adjective",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "er",
+          "base": "",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "er",
+          "base": "e",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ier",
+          "base": "y",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "bber",
+          "base": "b",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "dder",
+          "base": "d",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "gger",
+          "base": "g",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "mmer",
+          "base": "m",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "nner",
+          "base": "n",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tter",
+          "base": "t",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        }
+      ]
+    },
+    "superlative": {
+      "name": "superlative",
+      "description": "Superlative form of an adjective",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "est",
+          "base": "",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "est",
+          "base": "e",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iest",
+          "base": "y",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "bbest",
+          "base": "b",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ddest",
+          "base": "d",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ggest",
+          "base": "g",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "mmest",
+          "base": "m",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "nnest",
+          "base": "n",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ttest",
+          "base": "t",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        }
+      ]
+    },
+    "dropped g": {
+      "name": "dropped g",
+      "description": "Dropped g in -ing form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "in'",
+          "base": "ing",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "-y": {
+      "name": "-y",
+      "description": "Adjective formed from a verb or noun",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "y",
+          "base": "",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "y",
+          "base": "e",
+          "conditionsIn": [
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ggy",
+          "base": "g",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "lly",
+          "base": "l",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "mmy",
+          "base": "m",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "nny",
+          "base": "n",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ppy",
+          "base": "p",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "rry",
+          "base": "r",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ssy",
+          "base": "s",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "tty",
+          "base": "t",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n",
+            "v"
+          ]
+        }
+      ]
+    },
+    "un-": {
+      "name": "un-",
+      "description": "Negative form of an adjective, adverb, or verb",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "un",
+          "base": "",
+          "conditionsIn": [
+            "adj",
+            "adv",
+            "v"
+          ],
+          "conditionsOut": [
+            "adj",
+            "adv",
+            "v"
+          ]
+        }
+      ]
+    },
+    "going-to future": {
+      "name": "going-to future",
+      "description": "Going-to future tense of a verb",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "going to ",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "will future": {
+      "name": "will future",
+      "description": "Will-future tense of a verb",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "will ",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "imperative negative": {
+      "name": "imperative negative",
+      "description": "Negative imperative form of a verb",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "don't ",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "do not ",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "-able": {
+      "name": "-able",
+      "description": "Adjective formed from a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "able",
+          "base": "",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "able",
+          "base": "e",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iable",
+          "base": "y",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "bbable",
+          "base": "b",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ddable",
+          "base": "d",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ggable",
+          "base": "g",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "kkable",
+          "base": "k",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "llable",
+          "base": "l",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "mmable",
+          "base": "m",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "nnable",
+          "base": "n",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ppable",
+          "base": "p",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "rrable",
+          "base": "r",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ssable",
+          "base": "s",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ttable",
+          "base": "t",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "zzable",
+          "base": "z",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "adj"
+          ]
+        }
+      ]
+    }
+  }
+}

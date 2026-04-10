@@ -1,0 +1,261 @@
+{
+  "language": "kat",
+  "conditions": {
+    "v": {
+      "name": "Verb",
+      "isDictionaryForm": true
+    },
+    "n": {
+      "name": "Noun",
+      "isDictionaryForm": true,
+      "subConditions": [
+        "np",
+        "ns"
+      ]
+    },
+    "np": {
+      "name": "Noun plural",
+      "isDictionaryForm": true
+    },
+    "ns": {
+      "name": "Noun singular",
+      "isDictionaryForm": true
+    },
+    "adj": {
+      "name": "Adjective",
+      "isDictionaryForm": true
+    },
+    "adv": {
+      "name": "Adverb",
+      "isDictionaryForm": true
+    }
+  },
+  "transforms": {
+    "nounAdjSuffixStripping": {
+      "name": "noun-adj-suffix-stripping",
+      "description": "Strip Georgian noun and adjective declension suffixes",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ები",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ებს",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ებების",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "მა",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ს",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ის",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ით",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ად",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ო",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ში",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ზე",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "შია",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ზეა",
+          "base": "",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "nounAdjStemCompletion": {
+      "name": "noun-adj-stem-completion",
+      "description": "Restore nominative suffix -ი for consonant-ending noun/adjective stems",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "გნ",
+          "base": "გნი",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ნ",
+          "base": "ნი",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    },
+    "vowelRestoration": {
+      "name": "vowel-restoration",
+      "description": "Restore truncated vowels if applicable",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "გ",
+          "base": "გა",
+          "conditionsIn": [
+            "n",
+            "adj"
+          ],
+          "conditionsOut": [
+            "n",
+            "adj"
+          ]
+        }
+      ]
+    }
+  }
+}

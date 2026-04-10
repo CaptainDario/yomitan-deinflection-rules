@@ -1,0 +1,1081 @@
+{
+  "language": "sq",
+  "conditions": {
+    "v": {
+      "name": "Verb",
+      "isDictionaryForm": true
+    },
+    "n": {
+      "name": "Noun",
+      "isDictionaryForm": true,
+      "subConditions": [
+        "np",
+        "ns"
+      ]
+    },
+    "np": {
+      "name": "Noun plural",
+      "isDictionaryForm": true
+    },
+    "ns": {
+      "name": "Noun singular",
+      "isDictionaryForm": true
+    },
+    "adj": {
+      "name": "Adjective",
+      "isDictionaryForm": true
+    },
+    "adv": {
+      "name": "Adverb",
+      "isDictionaryForm": true
+    }
+  },
+  "transforms": {
+    "definite": {
+      "name": "definite",
+      "description": "Definite form of a noun",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ku",
+          "base": "k",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "gu",
+          "base": "g",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "hu",
+          "base": "h",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "au",
+          "base": "a",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "iu",
+          "base": "i",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "eu",
+          "base": "e",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "i",
+          "base": "ë",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "i",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ri",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "oi",
+          "base": "ua",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "a",
+          "base": "ë",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "a",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ja",
+          "base": "e",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "singular definite accusative": {
+      "name": "singular definite accusative",
+      "description": "Singular definite accusative form of a noun",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "n",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    },
+    "plural": {
+      "name": "plural",
+      "description": "Plural form of a noun",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "e",
+          "base": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "t",
+          "base": "",
+          "conditionsIn": [
+            "np"
+          ],
+          "conditionsOut": [
+            "ns"
+          ]
+        }
+      ]
+    },
+    "present indicative second-person singular": {
+      "name": "present indicative second-person singular",
+      "description": "Present indicative second-person singular form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "on",
+          "base": "oj",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "uan",
+          "base": "uaj",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "n",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "hesh",
+          "base": "hem",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "present indicative third-person singular": {
+      "name": "present indicative third-person singular",
+      "description": "Present indicative third-person singular form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "on",
+          "base": "oj",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "uan",
+          "base": "uaj",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "n",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "het",
+          "base": "hem",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "present indicative first-person plural": {
+      "name": "present indicative first-person plural",
+      "description": "Present indicative first-person plural form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "më",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "im",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "hemi",
+          "base": "hem",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "present indicative second-person plural": {
+      "name": "present indicative second-person plural",
+      "description": "Present indicative second-person plural form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ni",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ni",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "heni",
+          "base": "hem",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "present indicative third-person plural": {
+      "name": "present indicative third-person plural",
+      "description": "Present indicative third-person plural form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "në",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "in",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "hen",
+          "base": "hem",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "imperfect first-person singular indicative": {
+      "name": "imperfect first-person singular indicative",
+      "description": "Imperfect first-person singular indicative form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ja",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ja",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "hesha",
+          "base": "hem",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "imperfect second-person singular indicative": {
+      "name": "imperfect second-person singular indicative",
+      "description": "Imperfect second-person singular indicative form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "je",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "je",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "heshe",
+          "base": "hem",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "imperfect third-person singular indicative": {
+      "name": "imperfect third-person singular indicative",
+      "description": "Imperfect third-person singular indicative form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "nte",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "te",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "hej",
+          "base": "hem",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "imperfect first-person plural indicative": {
+      "name": "imperfect first-person plural indicative",
+      "description": "Imperfect first-person plural indicative form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "nim",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "nim",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "heshim",
+          "base": "hem",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "imperfect second-person plural indicative": {
+      "name": "imperfect second-person plural indicative",
+      "description": "Imperfect second-person plural indicative form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "nit",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "nit",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "heshit",
+          "base": "hem",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "imperfect third-person plural indicative": {
+      "name": "imperfect third-person plural indicative",
+      "description": "Imperfect third-person plural indicative form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "nin",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "nin",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "heshin",
+          "base": "hem",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "aorist first-person singular indicative": {
+      "name": "aorist first-person singular indicative",
+      "description": "Aorist first-person singular indicative form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ova",
+          "base": "uaj",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "va",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "other",
+          "inflected": "a",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ],
+          "isInflected": {}
+        }
+      ]
+    },
+    "aorist second-person singular indicative": {
+      "name": "aorist second-person singular indicative",
+      "description": "Aorist second-person singular indicative form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ove",
+          "base": "uaj",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ve",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "other",
+          "inflected": "e",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ],
+          "isInflected": {}
+        }
+      ]
+    },
+    "aorist third-person singular indicative": {
+      "name": "aorist third-person singular indicative",
+      "description": "Aorist third-person singular indicative form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "oi",
+          "base": "oj",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "oi",
+          "base": "uaj",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "u",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "other",
+          "inflected": "i",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ],
+          "isInflected": {}
+        },
+        {
+          "type": "suffix",
+          "inflected": "ye",
+          "base": "ej",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "aorist first-person plural indicative": {
+      "name": "aorist first-person plural indicative",
+      "description": "Aorist first-person plural indicative form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "uam",
+          "base": "oj",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "uam",
+          "base": "uaj",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "më",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "other",
+          "inflected": "ëm",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ],
+          "isInflected": {}
+        }
+      ]
+    },
+    "aorist second-person plural indicative": {
+      "name": "aorist second-person plural indicative",
+      "description": "Aorist second-person plural indicative form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "uat",
+          "base": "oj",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "uat",
+          "base": "uaj",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "të",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "other",
+          "inflected": "ët",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ],
+          "isInflected": {}
+        }
+      ]
+    },
+    "aorist third-person plural indicative": {
+      "name": "aorist third-person plural indicative",
+      "description": "Aorist third-person plural indicative form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "uan",
+          "base": "oj",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "uan",
+          "base": "uaj",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "në",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "other",
+          "inflected": "ën",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ],
+          "isInflected": {}
+        }
+      ]
+    },
+    "imperative second-person singular present": {
+      "name": "imperative second-person singular present",
+      "description": "Imperative second-person singular present form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "o",
+          "base": "oj",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "hu",
+          "base": "hem",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "imperative second-person plural present": {
+      "name": "imperative second-person plural present",
+      "description": "Imperative second-person plural present form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ni",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ni",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "huni",
+          "base": "hem",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "participle": {
+      "name": "participle",
+      "description": "Participle form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "uar",
+          "base": "oj",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ur",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "rë",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "yer",
+          "base": "ej",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "mediopassive": {
+      "name": "mediopassive",
+      "description": "Mediopassive form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "hem",
+          "base": "h",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "hem",
+          "base": "j",
+          "conditionsIn": [
+            "v"
+          ],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "optative first-person singular present": {
+      "name": "optative first-person singular present",
+      "description": "Optative first-person singular present form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "fsha",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "optative second-person singular present": {
+      "name": "optative second-person singular present",
+      "description": "Optative second-person singular present form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "fsh",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "optative third-person singular present": {
+      "name": "optative third-person singular present",
+      "description": "Optative third-person singular present form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ftë",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "optative first-person plural present": {
+      "name": "optative first-person plural present",
+      "description": "Optative first-person plural present form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "fshim",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "optative second-person plural present": {
+      "name": "optative second-person plural present",
+      "description": "Optative second-person plural present form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "fshi",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "optative third-person plural present": {
+      "name": "optative third-person plural present",
+      "description": "Optative third-person plural present form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "fshin",
+          "base": "j",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    },
+    "nominalization": {
+      "name": "nominalization",
+      "description": "Noun form of a verb",
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "im",
+          "base": "oj",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "im",
+          "base": "ej",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "je",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v"
+          ]
+        }
+      ]
+    }
+  }
+}

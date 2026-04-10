@@ -1,0 +1,46 @@
+[
+  {
+    "category": "nouns",
+    "valid": true,
+    "tests": [
+      {
+        "term": "triail",
+        "source": "dtriail",
+        "rule": "n",
+        "reasons": [
+          "eclipsis"
+        ]
+      },
+      {
+        "term": "gairdín",
+        "source": "ngairdín",
+        "rule": "n",
+        "reasons": [
+          "eclipsis"
+        ]
+      },
+      {
+        "term": "dualgas",
+        "source": "ndualgas",
+        "rule": "n",
+        "reasons": [
+          "eclipsis"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "invalid nouns",
+    "valid": false,
+    "tests": [
+      {
+        "term": "dualgas",
+        "source": "nualgas",
+        "rule": "n",
+        "reasons": [
+          "eclipsis"
+        ]
+      }
+    ]
+  }
+]

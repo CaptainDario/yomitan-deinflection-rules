@@ -1,0 +1,125 @@
+{
+  "language": "ga",
+  "conditions": {
+    "v": {
+      "name": "Verb",
+      "isDictionaryForm": true,
+      "subConditions": [
+        "v_phr"
+      ]
+    },
+    "v_phr": {
+      "name": "Phrasal verb",
+      "isDictionaryForm": true
+    },
+    "n": {
+      "name": "Noun",
+      "isDictionaryForm": true,
+      "subConditions": [
+        "np",
+        "ns"
+      ]
+    },
+    "np": {
+      "name": "Noun plural",
+      "isDictionaryForm": true
+    },
+    "ns": {
+      "name": "Noun singular",
+      "isDictionaryForm": true
+    },
+    "adj": {
+      "name": "Adjective",
+      "isDictionaryForm": true
+    },
+    "adv": {
+      "name": "Adverb",
+      "isDictionaryForm": true
+    }
+  },
+  "transforms": {
+    "eclipsis": {
+      "name": "eclipsis",
+      "description": "eclipsis form of a noun",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "mb",
+          "base": "b",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "gc",
+          "base": "c",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "nd",
+          "base": "d",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "bhf",
+          "base": "f",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "ng",
+          "base": "g",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "bp",
+          "base": "p",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        },
+        {
+          "type": "prefix",
+          "inflected": "dt",
+          "base": "t",
+          "conditionsIn": [
+            "n"
+          ],
+          "conditionsOut": [
+            "n"
+          ]
+        }
+      ]
+    }
+  }
+}
