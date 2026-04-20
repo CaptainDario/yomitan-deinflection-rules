@@ -1,62 +1,75 @@
 [
   {
-    "category": "ξανα-",
+    "category": "plural",
     "valid": true,
     "tests": [
       {
-        "term": "ρώτησε",
-        "source": "ξαναρώτησε",
-        "rule": "v",
+        "term": "fluvius",
+        "source": "fluvii",
+        "rule": "n",
         "reasons": [
-          "ξανα-"
+          "plural"
         ]
       },
       {
-        "term": "ανθίζω",
-        "source": "ξανανθίζω",
-        "rule": "v",
+        "term": "magnus",
+        "source": "magni",
+        "rule": "adj",
         "reasons": [
-          "ξανα-"
+          "plural"
         ]
       },
       {
-        "term": "έβαλε",
-        "source": "ξανάβαλε",
-        "rule": "v",
+        "term": "insula",
+        "source": "insulae",
+        "rule": "n",
         "reasons": [
-          "ξανα-"
+          "plural"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "adjective",
+    "valid": true,
+    "tests": [
+      {
+        "term": "magnus",
+        "source": "magna",
+        "rule": "adj",
+        "reasons": [
+          "feminine"
         ]
       },
       {
-        "term": "άρχισε",
-        "source": "ξανάρχισε",
-        "rule": "v",
+        "term": "Graecus",
+        "source": "Graecum",
+        "rule": "adj",
         "reasons": [
-          "ξανα-"
+          "neuter"
         ]
       },
       {
-        "term": "είπα",
-        "source": "ξανάπα",
-        "rule": "v",
+        "term": "primus",
+        "source": "prima",
+        "rule": "adj",
         "reasons": [
-          "ξανα-"
+          "neuter",
+          "plural"
         ]
-      },
+      }
+    ]
+  },
+  {
+    "category": "ablative",
+    "valid": true,
+    "tests": [
       {
-        "term": "πας",
-        "source": "ξαναπάς",
-        "rule": "v",
+        "term": "vocabulum",
+        "source": "vocabulo",
+        "rule": "n",
         "reasons": [
-          "ξανα-"
-        ]
-      },
-      {
-        "term": "λες",
-        "source": "ξαναλές",
-        "rule": "v",
-        "reasons": [
-          "ξανα-"
+          "ablative"
         ]
       }
     ]

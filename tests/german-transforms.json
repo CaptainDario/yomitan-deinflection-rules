@@ -1,155 +1,210 @@
 [
   {
-    "category": "nominalization",
+    "category": "general",
     "valid": true,
     "tests": [
       {
-        "term": "reinigen",
-        "source": "reinigung",
-        "rule": "v",
-        "reasons": [
-          "nominalization"
-        ]
-      },
-      {
-        "term": "säubern",
-        "source": "säuberung",
-        "rule": "v",
-        "reasons": [
-          "nominalization"
-        ]
-      },
-      {
-        "term": "entwickeln",
-        "source": "entwicklung",
-        "rule": "v",
-        "reasons": [
-          "nominalization"
-        ]
-      }
-    ]
-  },
-  {
-    "category": "-bar",
-    "valid": true,
-    "tests": [
-      {
-        "term": "essen",
-        "source": "essbar",
-        "rule": "v",
-        "reasons": [
-          "-bar"
-        ]
-      },
-      {
-        "term": "liefern",
-        "source": "lieferbar",
-        "rule": "v",
-        "reasons": [
-          "-bar"
-        ]
-      }
-    ]
-  },
-  {
-    "category": "negative",
-    "valid": true,
-    "tests": [
-      {
-        "term": "möglich",
-        "source": "unmöglich",
-        "rule": "adj",
-        "reasons": [
-          "negative"
-        ]
-      }
-    ]
-  },
-  {
-    "category": "past participle",
-    "valid": true,
-    "tests": [
-      {
-        "term": "schnitzen",
-        "source": "geschnitzt",
-        "rule": "v",
-        "reasons": [
-          "past participle"
-        ]
-      },
-      {
-        "term": "scheitern",
-        "source": "gescheitert",
-        "rule": "v",
-        "reasons": [
-          "past participle"
-        ]
-      },
-      {
-        "term": "darstellen",
-        "source": "dargestellt",
-        "rule": "v",
-        "reasons": [
-          "past participle"
-        ]
-      }
-    ]
-  },
-  {
-    "category": "separated prefix",
-    "valid": true,
-    "tests": [
-      {
-        "term": "räum auf",
-        "source": "räum den Tisch auf",
-        "rule": "v",
-        "reasons": [
-          "separated prefix"
-        ]
-      }
-    ]
-  },
-  {
-    "category": "zu-infinitive",
-    "valid": true,
-    "tests": [
-      {
-        "term": "aufräumen",
-        "source": "aufzuräumen",
-        "rule": "v",
-        "reasons": [
-          "zu-infinitive"
-        ]
-      }
-    ]
-  },
-  {
-    "category": "-heit",
-    "valid": true,
-    "tests": [
-      {
-        "term": "wahr",
-        "source": "wahrheit",
-        "rule": "adj",
-        "reasons": [
-          "-heit"
-        ]
-      },
-      {
-        "term": "Kind",
-        "source": "Kindheit",
+        "term": "amiko",
+        "source": "amikon",
         "rule": "n",
         "reasons": [
-          "-heit"
+          "accusative"
         ]
       },
       {
-        "term": "anwenden",
-        "source": "anwendbarkeit",
+        "term": "amiko",
+        "source": "amikoj",
+        "rule": "n",
+        "reasons": [
+          "plural"
+        ]
+      },
+      {
+        "term": "amiko",
+        "source": "amiketo",
+        "rule": "n",
+        "reasons": [
+          "diminutive"
+        ]
+      },
+      {
+        "term": "kie",
+        "source": "kien",
+        "rule": "adv",
+        "reasons": [
+          "directional"
+        ]
+      },
+      {
+        "term": "surpinto",
+        "source": "surpinte",
+        "rule": "n",
+        "reasons": [
+          "locational"
+        ]
+      },
+      {
+        "term": "amiko",
+        "source": "amika",
+        "rule": "n",
+        "reasons": [
+          "adjectival"
+        ]
+      },
+      {
+        "term": "amika",
+        "source": "amike",
+        "rule": "adj",
+        "reasons": [
+          "adverbial (adj -> adv)"
+        ]
+      },
+      {
+        "term": "amiki",
+        "source": "amike",
         "rule": "v",
         "reasons": [
-          "-bar",
-          "-heit"
+          "adverbial (v -> adv)"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "suffixes",
+    "valid": true,
+    "tests": [
+      {
+        "term": "kafo",
+        "source": "kafejo",
+        "rule": "n",
+        "reasons": [
+          "-ejo (noun)"
+        ]
+      },
+      {
+        "term": "kuiri",
+        "source": "kuirejo",
+        "rule": "v",
+        "reasons": [
+          "-ejo (verb)"
+        ]
+      },
+      {
+        "term": "abelo",
+        "source": "abelujo",
+        "rule": "n",
+        "reasons": [
+          "-ujo (noun)"
+        ]
+      },
+      {
+        "term": "frida",
+        "source": "fridujo",
+        "rule": "adj",
+        "reasons": [
+          "-ujo (adjective)"
+        ]
+      },
+      {
+        "term": "lavi",
+        "source": "lavujo",
+        "rule": "v",
+        "reasons": [
+          "-ujo (verb)"
+        ]
+      },
+      {
+        "term": "kompreni",
+        "source": "komprenebla",
+        "rule": "v",
+        "reasons": [
+          "-ebla"
+        ]
+      },
+      {
+        "term": "vivi",
+        "source": "vivado",
+        "rule": "v",
+        "reasons": [
+          "-ado"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "prefixes",
+    "valid": true,
+    "tests": [
+      {
+        "term": "bona",
+        "source": "malbona",
+        "rule": "adj",
+        "reasons": [
+          "mal-"
+        ]
+      },
+      {
+        "term": "labori",
+        "source": "kunlabori",
+        "rule": "v",
+        "reasons": [
+          "kun-"
+        ]
+      },
+      {
+        "term": "dome",
+        "source": "eksterdome",
+        "rule": "adv",
+        "reasons": [
+          "ekster-"
+        ]
+      },
+      {
+        "term": "lerni",
+        "source": "eklerni",
+        "rule": "v",
+        "reasons": [
+          "ek-"
+        ]
+      },
+      {
+        "term": "vekita",
+        "source": "ĵusvekita",
+        "rule": "adj",
+        "reasons": [
+          "ĵus-"
+        ]
+      },
+      {
+        "term": "iri",
+        "source": "eliri",
+        "rule": "v",
+        "reasons": [
+          "el-"
+        ]
+      },
+      {
+        "term": "fali",
+        "source": "disfali",
+        "rule": "v",
+        "reasons": [
+          "dis-"
+        ]
+      },
+      {
+        "term": "flugi",
+        "source": "forflugi",
+        "rule": "v",
+        "reasons": [
+          "for-"
+        ]
+      },
+      {
+        "term": "paroli",
+        "source": "misparoli",
+        "rule": "v",
+        "reasons": [
+          "mis-"
         ]
       }
     ]
