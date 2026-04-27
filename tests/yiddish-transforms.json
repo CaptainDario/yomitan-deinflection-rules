@@ -1,136 +1,292 @@
 [
   {
-    "category": "prefixes",
+    "category": "nouns",
     "valid": true,
     "tests": [
       {
-        "term": "luto",
-        "source": "tagaluto",
-        "rule": "n",
+        "term": "גרופּע",
+        "source": "גרופּעס",
+        "rule": "ns",
         "reasons": [
-          "taga-"
+          "plural"
         ]
       },
       {
-        "term": "sigaw",
-        "source": "kasisigaw",
-        "rule": "n",
+        "term": "טיש",
+        "source": "טישן",
+        "rule": "ns",
         "reasons": [
-          "kaka-"
+          "plural"
         ]
       },
       {
-        "term": "isip",
-        "source": "kaiisip",
-        "rule": "n",
+        "term": "פּויער",
+        "source": "פּויערים",
+        "rule": "ns",
         "reasons": [
-          "kaka-"
+          "plural"
         ]
       },
       {
-        "term": "gamot",
-        "source": "manggagamot",
-        "rule": "n",
+        "term": "קינד",
+        "source": "קינדער",
+        "rule": "ns",
         "reasons": [
-          "mang- + rep1"
+          "plural"
         ]
       },
       {
-        "term": "pareho",
-        "source": "kapareho",
-        "rule": "adj",
+        "term": "בענקל",
+        "source": "בענקלעך",
+        "rule": "ns",
         "reasons": [
-          "ka-"
+          "plural"
         ]
       },
       {
-        "term": "hina",
-        "source": "nakapanghihina",
-        "rule": "n",
+        "term": "באַנ",
+        "source": "באַנען",
+        "rule": "ns",
         "reasons": [
-          "nakapang- + rep1"
+          "plural"
         ]
       },
       {
-        "term": "tulong",
-        "source": "nakatutulong",
+        "term": "נודניק",
+        "source": "נודניקעס",
+        "rule": "ns",
+        "reasons": [
+          "plural"
+        ]
+      },
+      {
+        "term": "חלומ",
+        "source": "חלומות",
+        "rule": "ns",
+        "reasons": [
+          "plural"
+        ]
+      },
+      {
+        "term": "עטיקעט",
+        "source": "עטיקעטקע",
         "rule": "n",
         "reasons": [
-          "naka- + rep1"
+          "diminutive"
+        ]
+      },
+      {
+        "term": "קליענטעל",
+        "source": "קליענטעלטשיק",
+        "rule": "n",
+        "reasons": [
+          "diminutive"
+        ]
+      },
+      {
+        "term": "קינדער",
+        "source": "קינדערלעך",
+        "rule": "ns",
+        "reasons": [
+          "diminutive",
+          "plural"
+        ]
+      },
+      {
+        "term": "ליפ",
+        "source": "ליפענעס",
+        "rule": "ns",
+        "reasons": [
+          "plural"
+        ]
+      },
+      {
+        "term": "אײ",
+        "source": "אײערען",
+        "rule": "ns",
+        "reasons": [
+          "plural"
+        ]
+      },
+      {
+        "term": "זאָק",
+        "source": "זאָקענס",
+        "rule": "ns",
+        "reasons": [
+          "plural"
+        ]
+      },
+      {
+        "term": "בוך",
+        "source": "בוךערס",
+        "rule": "ns",
+        "reasons": [
+          "plural"
+        ]
+      },
+      {
+        "term": "קוכן",
+        "source": "קוכןסער",
+        "rule": "ns",
+        "reasons": [
+          "plural"
+        ]
+      },
+      {
+        "term": "קעניג",
+        "source": "קעניגנס",
+        "rule": "ns",
+        "reasons": [
+          "plural"
         ]
       }
     ]
   },
   {
-    "category": "sandwich",
+    "category": "umlaut_nouns",
     "valid": true,
     "tests": [
       {
-        "term": "sira",
-        "source": "masiraan",
+        "term": "מאנ",
+        "source": "מענער",
+        "rule": "ns",
+        "reasons": [
+          "umlaut_plural"
+        ]
+      },
+      {
+        "term": "טשוואק",
+        "source": "טשוועקעס",
+        "rule": "ns",
+        "reasons": [
+          "umlaut_plural"
+        ]
+      },
+      {
+        "term": "מױד",
+        "source": "מײדלעך",
+        "rule": "ns",
+        "reasons": [
+          "diminutive_and_umlaut",
+          "plural"
+        ]
+      },
+      {
+        "term": "דאָקטער",
+        "source": "דאָקטױרים",
+        "rule": "ns",
+        "reasons": [
+          "umlaut_plural"
+        ]
+      },
+      {
+        "term": "בלומ",
+        "source": "בלימען",
+        "rule": "ns",
+        "reasons": [
+          "umlaut_plural"
+        ]
+      },
+      {
+        "term": "אומשטאנד",
+        "source": "אומשטענדן",
+        "rule": "ns",
+        "reasons": [
+          "umlaut_plural"
+        ]
+      },
+      {
+        "term": "קאצ",
+        "source": "קעצעלע",
         "rule": "n",
         "reasons": [
-          "ma-...-an"
+          "diminutive_and_umlaut"
+        ]
+      },
+      {
+        "term": "קאצ",
+        "source": "קעצל",
+        "rule": "n",
+        "reasons": [
+          "diminutive_and_umlaut"
+        ]
+      },
+      {
+        "term": "באַרג",
+        "source": "בערגן",
+        "rule": "ns",
+        "reasons": [
+          "umlaut_plural"
+        ]
+      },
+      {
+        "term": "בױמ",
+        "source": "בײמערס",
+        "rule": "ns",
+        "reasons": [
+          "umlaut_plural"
+        ]
+      },
+      {
+        "term": "קאפּ",
+        "source": "קעפּער",
+        "rule": "ns",
+        "reasons": [
+          "umlaut_plural"
+        ]
+      },
+      {
+        "term": "קאפּ",
+        "source": "קעפּער",
+        "rule": "ns",
+        "reasons": [
+          "umlaut_plural"
         ]
       }
     ]
   },
   {
-    "category": "suffix",
+    "category": "verbs",
     "valid": true,
     "tests": [
       {
-        "term": "kain",
-        "source": "kainin",
-        "rule": "n",
+        "term": "קויפֿ",
+        "source": "קויפֿסט",
+        "rule": "v",
         "reasons": [
-          "-in"
+          "verb_present_singular_to_first_person"
         ]
       },
       {
-        "term": "ako",
-        "source": "akong",
-        "rule": "n",
+        "term": "קויפֿ",
+        "source": "קויפֿט",
+        "rule": "vpresent",
         "reasons": [
-          "-ng"
-        ]
-      }
-    ]
-  },
-  {
-    "category": "irregulars",
-    "valid": true,
-    "tests": [
-      {
-        "term": "dalawa",
-        "source": "ikalawa",
-        "rule": "num",
-        "reasons": [
-          "ika-"
+          "verb_present_singular_to_first_person"
         ]
       },
       {
-        "term": "dalawa",
-        "source": "pangalawa",
-        "rule": "num",
+        "term": "קויפֿנ",
+        "source": "קויפֿט",
+        "rule": "vpresent",
         "reasons": [
-          "pang-"
+          "verb_present_plural_to_first_person"
         ]
       },
       {
-        "term": "tatlo",
-        "source": "ikatlo",
-        "rule": "num",
+        "term": "קויפֿנ",
+        "source": "קויפֿטס",
+        "rule": "vpresent",
         "reasons": [
-          "ika-"
+          "verb_present_plural_to_first_person"
         ]
       },
       {
-        "term": "tatlo",
-        "source": "pangatlo",
-        "rule": "num",
+        "term": "קויפֿנ",
+        "source": "קויפֿטס",
+        "rule": "vpresent",
         "reasons": [
-          "pang-"
+          "verb_present_plural_to_first_person"
         ]
       }
     ]
