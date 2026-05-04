@@ -1,251 +1,557 @@
 {
-  "language": "la",
-  "conditions": {
-    "v": {
-      "name": "Verb",
-      "isDictionaryForm": true
-    },
-    "n": {
-      "name": "Noun",
-      "isDictionaryForm": true,
-      "subConditions": [
-        "ns",
-        "np"
-      ]
-    },
-    "ns": {
-      "name": "Noun, singular",
-      "isDictionaryForm": true,
-      "subConditions": [
-        "n1s",
-        "n2s",
-        "n3s",
-        "n4s",
-        "n5s"
-      ]
-    },
-    "np": {
-      "name": "Noun, plural",
-      "isDictionaryForm": true,
-      "subConditions": [
-        "n1p",
-        "n2p",
-        "n3p",
-        "n4p",
-        "n5p"
-      ]
-    },
-    "n1": {
-      "name": "Noun, 1st declension",
-      "isDictionaryForm": true,
-      "subConditions": [
-        "n1s",
-        "n1p"
-      ]
-    },
-    "n1p": {
-      "name": "Noun, 1st declension, plural",
-      "isDictionaryForm": true
-    },
-    "n1s": {
-      "name": "Noun, 1st declension, singular",
-      "isDictionaryForm": true
-    },
-    "n2": {
-      "name": "Noun, 2nd declension",
-      "isDictionaryForm": true,
-      "subConditions": [
-        "n2s",
-        "n2p"
-      ]
-    },
-    "n2p": {
-      "name": "Noun, 2nd declension, plural",
-      "isDictionaryForm": true
-    },
-    "n2s": {
-      "name": "Noun, 2nd declension, singular",
-      "isDictionaryForm": true
-    },
-    "n3": {
-      "name": "Noun, 3rd declension",
-      "isDictionaryForm": true,
-      "subConditions": [
-        "n3s",
-        "n3p"
-      ]
-    },
-    "n3p": {
-      "name": "Noun, 3rd declension, plural",
-      "isDictionaryForm": true
-    },
-    "n3s": {
-      "name": "Noun, 3rd declension, singular",
-      "isDictionaryForm": true
-    },
-    "n4": {
-      "name": "Noun, 4th declension",
-      "isDictionaryForm": true,
-      "subConditions": [
-        "n4s",
-        "n4p"
-      ]
-    },
-    "n4p": {
-      "name": "Noun, 4th declension, plural",
-      "isDictionaryForm": true
-    },
-    "n4s": {
-      "name": "Noun, 4th declension, singular",
-      "isDictionaryForm": true
-    },
-    "n5": {
-      "name": "Noun, 5th declension",
-      "isDictionaryForm": true,
-      "subConditions": [
-        "n5s",
-        "n5p"
-      ]
-    },
-    "n5p": {
-      "name": "Noun, 5th declension, plural",
-      "isDictionaryForm": true
-    },
-    "n5s": {
-      "name": "Noun, 5th declension, singular",
-      "isDictionaryForm": true
-    },
-    "adj": {
-      "name": "Adjective",
-      "isDictionaryForm": true,
-      "subConditions": [
-        "adj3",
-        "adj12"
-      ]
-    },
-    "adj12": {
-      "name": "Adjective, 1st-2nd declension",
-      "isDictionaryForm": true
-    },
-    "adj3": {
-      "name": "Adjective, 3rd declension",
-      "isDictionaryForm": true
-    },
-    "adv": {
-      "name": "Adverb",
-      "isDictionaryForm": true
-    }
-  },
+  "language": "sga",
+  "conditions": {},
   "transforms": {
-    "plural": {
-      "name": "plural",
-      "description": "Plural declension",
+    "nd for nn": {
+      "name": "nd for nn",
+      "description": "nd for nn",
       "rules": [
         {
           "type": "suffix",
-          "inflected": "i",
-          "base": "us",
-          "conditionsIn": [
-            "n2p"
-          ],
-          "conditionsOut": [
-            "n2s"
-          ]
+          "inflected": "nd",
+          "base": "nn",
+          "conditionsIn": [],
+          "conditionsOut": []
+        }
+      ]
+    },
+    "cg for c": {
+      "name": "cg for c",
+      "description": "cg for c",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        }
+      ]
+    },
+    "td for t": {
+      "name": "td for t",
+      "description": "td for t",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        }
+      ]
+    },
+    "pb for p": {
+      "name": "pb for p",
+      "description": "pb for p",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        }
+      ]
+    },
+    "ǽ/æ for é": {
+      "name": "ǽ/æ for é",
+      "description": "ǽ/æ for é",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
         },
         {
-          "type": "suffix",
-          "inflected": "i",
-          "base": "us",
-          "conditionsIn": [
-            "adj12"
-          ],
-          "conditionsOut": [
-            "adj12"
-          ]
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        }
+      ]
+    },
+    "doubled vowel": {
+      "name": "doubled vowel",
+      "description": "Doubled Vowel",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
         },
         {
-          "type": "suffix",
-          "inflected": "e",
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        }
+      ]
+    },
+    "doubled consonant": {
+      "name": "doubled consonant",
+      "description": "Doubled Consonant",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        }
+      ]
+    },
+    "lenited": {
+      "name": "lenited",
+      "description": "Non-Beginning Lenition",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        }
+      ]
+    },
+    "lenited (Middle Irish)": {
+      "name": "lenited (Middle Irish)",
+      "description": "Non-Beginning Lenition (Middle Irish)",
+      "rules": [
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "other",
+          "isInflected": {},
+          "conditionsIn": [],
+          "conditionsOut": []
+        }
+      ]
+    },
+    "[IM] nasalized": {
+      "name": "[IM] nasalized",
+      "description": "Nasalized Word",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "ng",
+          "base": "g",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "mb",
+          "base": "b",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "nd",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "n-",
           "base": "",
-          "conditionsIn": [
-            "n1p"
-          ],
-          "conditionsOut": [
-            "n1s"
-          ]
+          "conditionsIn": [],
+          "conditionsOut": []
         },
         {
-          "type": "suffix",
-          "inflected": "ae",
+          "type": "prefix",
+          "inflected": "m-",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": []
+        }
+      ]
+    },
+    "[IM] nasalized (Middle Irish)": {
+      "name": "[IM] nasalized (Middle Irish)",
+      "description": "Nasalized Word (Middle Irish)",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "gc",
+          "base": "c",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "bp",
+          "base": "p",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "dt",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": []
+        }
+      ]
+    },
+    "[IM] lenited": {
+      "name": "[IM] lenited",
+      "description": "Lenited Word",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "ch",
+          "base": "c",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "ph",
+          "base": "p",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "th",
+          "base": "t",
+          "conditionsIn": [],
+          "conditionsOut": []
+        }
+      ]
+    },
+    "[IM] lenited (Middle Irish)": {
+      "name": "[IM] lenited (Middle Irish)",
+      "description": "Lenited Word (Middle Irish)",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "gh",
+          "base": "g",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "bh",
+          "base": "b",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "dh",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": []
+        }
+      ]
+    },
+    "[IM] aspirated": {
+      "name": "[IM] aspirated",
+      "description": "Aspirated Word",
+      "rules": [
+        {
+          "type": "prefix",
+          "inflected": "ha",
           "base": "a",
-          "conditionsIn": [
-            "adj12"
-          ],
-          "conditionsOut": [
-            "adj12"
-          ]
+          "conditionsIn": [],
+          "conditionsOut": []
         },
         {
-          "type": "suffix",
-          "inflected": "a",
-          "base": "um",
-          "conditionsIn": [
-            "adj12"
-          ],
-          "conditionsOut": [
-            "adj12"
-          ]
+          "type": "prefix",
+          "inflected": "he",
+          "base": "e",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "hi",
+          "base": "i",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "ho",
+          "base": "o",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "hu",
+          "base": "u",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "h-",
+          "base": "",
+          "conditionsIn": [],
+          "conditionsOut": []
         }
       ]
     },
-    "feminine": {
-      "name": "feminine",
-      "description": "Adjective form",
+    "[IM] geminated": {
+      "name": "[IM] geminated",
+      "description": "Geminated Word",
       "rules": [
         {
-          "type": "suffix",
-          "inflected": "a",
-          "base": "us",
-          "conditionsIn": [
-            "adj12"
-          ],
-          "conditionsOut": [
-            "adj12"
-          ]
-        }
-      ]
-    },
-    "neuter": {
-      "name": "neuter",
-      "description": "Adjective form",
-      "rules": [
+          "type": "prefix",
+          "inflected": "cc",
+          "base": "c",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
         {
-          "type": "suffix",
-          "inflected": "um",
-          "base": "us",
-          "conditionsIn": [
-            "adj12"
-          ],
-          "conditionsOut": [
-            "adj12"
-          ]
-        }
-      ]
-    },
-    "ablative": {
-      "name": "ablative",
-      "description": "Ablative case",
-      "rules": [
+          "type": "prefix",
+          "inflected": "pp",
+          "base": "p",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
         {
-          "type": "suffix",
-          "inflected": "o",
-          "base": "um",
-          "conditionsIn": [
-            "n2s"
-          ],
-          "conditionsOut": [
-            "n2s"
-          ]
+          "type": "prefix",
+          "inflected": "tt",
+          "base": "t",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "gg",
+          "base": "g",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "bb",
+          "base": "b",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "dd",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "rr",
+          "base": "r",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "ll",
+          "base": "l",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "nn",
+          "base": "n",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "mm",
+          "base": "m",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "ss",
+          "base": "s",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "c-c",
+          "base": "c",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "p-p",
+          "base": "p",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "t-t",
+          "base": "t",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "g-g",
+          "base": "g",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "b-b",
+          "base": "b",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "d-d",
+          "base": "d",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "r-r",
+          "base": "r",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "l-l",
+          "base": "l",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "n-n",
+          "base": "n",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "m-m",
+          "base": "m",
+          "conditionsIn": [],
+          "conditionsOut": []
+        },
+        {
+          "type": "prefix",
+          "inflected": "s-s",
+          "base": "s",
+          "conditionsIn": [],
+          "conditionsOut": []
         }
       ]
     }

@@ -1,75 +1,62 @@
 [
   {
-    "category": "plural",
+    "category": "ξανα-",
     "valid": true,
     "tests": [
       {
-        "term": "fluvius",
-        "source": "fluvii",
-        "rule": "n",
+        "term": "ρώτησε",
+        "source": "ξαναρώτησε",
+        "rule": "v",
         "reasons": [
-          "plural"
+          "ξανα-"
         ]
       },
       {
-        "term": "magnus",
-        "source": "magni",
-        "rule": "adj",
+        "term": "ανθίζω",
+        "source": "ξανανθίζω",
+        "rule": "v",
         "reasons": [
-          "plural"
+          "ξανα-"
         ]
       },
       {
-        "term": "insula",
-        "source": "insulae",
-        "rule": "n",
+        "term": "έβαλε",
+        "source": "ξανάβαλε",
+        "rule": "v",
         "reasons": [
-          "plural"
-        ]
-      }
-    ]
-  },
-  {
-    "category": "adjective",
-    "valid": true,
-    "tests": [
-      {
-        "term": "magnus",
-        "source": "magna",
-        "rule": "adj",
-        "reasons": [
-          "feminine"
+          "ξανα-"
         ]
       },
       {
-        "term": "Graecus",
-        "source": "Graecum",
-        "rule": "adj",
+        "term": "άρχισε",
+        "source": "ξανάρχισε",
+        "rule": "v",
         "reasons": [
-          "neuter"
+          "ξανα-"
         ]
       },
       {
-        "term": "primus",
-        "source": "prima",
-        "rule": "adj",
+        "term": "είπα",
+        "source": "ξανάπα",
+        "rule": "v",
         "reasons": [
-          "neuter",
-          "plural"
+          "ξανα-"
         ]
-      }
-    ]
-  },
-  {
-    "category": "ablative",
-    "valid": true,
-    "tests": [
+      },
       {
-        "term": "vocabulum",
-        "source": "vocabulo",
-        "rule": "n",
+        "term": "πας",
+        "source": "ξαναπάς",
+        "rule": "v",
         "reasons": [
-          "ablative"
+          "ξανα-"
+        ]
+      },
+      {
+        "term": "λες",
+        "source": "ξαναλές",
+        "rule": "v",
+        "reasons": [
+          "ξανα-"
         ]
       }
     ]

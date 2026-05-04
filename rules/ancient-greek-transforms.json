@@ -1,616 +1,122 @@
 {
-  "language": "grc",
+  "language": "ga",
   "conditions": {
     "v": {
       "name": "Verb",
+      "isDictionaryForm": true,
+      "subConditions": [
+        "v_phr"
+      ]
+    },
+    "v_phr": {
+      "name": "Phrasal verb",
       "isDictionaryForm": true
     },
     "n": {
       "name": "Noun",
+      "isDictionaryForm": true,
+      "subConditions": [
+        "np",
+        "ns"
+      ]
+    },
+    "np": {
+      "name": "Noun plural",
+      "isDictionaryForm": true
+    },
+    "ns": {
+      "name": "Noun singular",
       "isDictionaryForm": true
     },
     "adj": {
       "name": "Adjective",
       "isDictionaryForm": true
+    },
+    "adv": {
+      "name": "Adverb",
+      "isDictionaryForm": true
     }
   },
   "transforms": {
-    "2nd person singular present active indicative": {
-      "name": "2nd person singular present active indicative",
+    "eclipsis": {
+      "name": "eclipsis",
+      "description": "eclipsis form of a noun",
       "rules": [
         {
-          "type": "suffix",
-          "inflected": "εις",
-          "base": "ω",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "v"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "εις",
-          "base": "εω",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "v"
-          ]
-        }
-      ]
-    },
-    "3rd person singular present active indicative": {
-      "name": "3rd person singular present active indicative",
-      "rules": [
-        {
-          "type": "suffix",
-          "inflected": "ει",
-          "base": "ω",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "v"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "ει",
-          "base": "εω",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "v"
-          ]
-        }
-      ]
-    },
-    "1st person plural present active indicative": {
-      "name": "1st person plural present active indicative",
-      "rules": [
-        {
-          "type": "suffix",
-          "inflected": "ομεν",
-          "base": "ω",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "v"
-          ]
-        }
-      ]
-    },
-    "2nd person plural present active indicative": {
-      "name": "2nd person plural present active indicative",
-      "rules": [
-        {
-          "type": "suffix",
-          "inflected": "ετε",
-          "base": "ω",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "v"
-          ]
-        }
-      ]
-    },
-    "3rd person plural present active indicative": {
-      "name": "3rd person plural present active indicative",
-      "rules": [
-        {
-          "type": "suffix",
-          "inflected": "ουσι",
-          "base": "ω",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "v"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "ουσιν",
-          "base": "ω",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "v"
-          ]
-        }
-      ]
-    },
-    "2nd person singular present middle indicative": {
-      "name": "2nd person singular present middle indicative",
-      "rules": [
-        {
-          "type": "suffix",
-          "inflected": "ῃ",
-          "base": "ομαι",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "v"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "ει",
-          "base": "ομαι",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "v"
-          ]
-        }
-      ]
-    },
-    "3rd person singular present middle indicative": {
-      "name": "3rd person singular present middle indicative",
-      "rules": [
-        {
-          "type": "suffix",
-          "inflected": "εται",
-          "base": "ομαι",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "v"
-          ]
-        }
-      ]
-    },
-    "1st person plural present middle indicative": {
-      "name": "1st person plural present middle indicative",
-      "rules": [
-        {
-          "type": "suffix",
-          "inflected": "ομεθα",
-          "base": "ομαι",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "v"
-          ]
-        }
-      ]
-    },
-    "2nd person plural present middle indicative": {
-      "name": "2nd person plural present middle indicative",
-      "rules": [
-        {
-          "type": "suffix",
-          "inflected": "εσθε",
-          "base": "ομαι",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "v"
-          ]
-        }
-      ]
-    },
-    "3rd person plural present middle indicative": {
-      "name": "3rd person plural present middle indicative",
-      "rules": [
-        {
-          "type": "suffix",
-          "inflected": "ονται",
-          "base": "ομαι",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "v"
-          ]
-        }
-      ]
-    },
-    "genitive singular": {
-      "name": "genitive singular",
-      "rules": [
-        {
-          "type": "suffix",
-          "inflected": "ου",
-          "base": "ος",
-          "conditionsIn": [],
+          "type": "prefix",
+          "inflected": "mb",
+          "base": "b",
+          "conditionsIn": [
+            "n"
+          ],
           "conditionsOut": [
             "n"
           ]
         },
         {
-          "type": "suffix",
-          "inflected": "ας",
-          "base": "α",
-          "conditionsIn": [],
+          "type": "prefix",
+          "inflected": "gc",
+          "base": "c",
+          "conditionsIn": [
+            "n"
+          ],
           "conditionsOut": [
             "n"
           ]
         },
         {
-          "type": "suffix",
-          "inflected": "ου",
-          "base": "ας",
-          "conditionsIn": [],
+          "type": "prefix",
+          "inflected": "nd",
+          "base": "d",
+          "conditionsIn": [
+            "n"
+          ],
           "conditionsOut": [
             "n"
           ]
         },
         {
-          "type": "suffix",
-          "inflected": "ου",
-          "base": "ον",
-          "conditionsIn": [],
+          "type": "prefix",
+          "inflected": "bhf",
+          "base": "f",
+          "conditionsIn": [
+            "n"
+          ],
           "conditionsOut": [
             "n"
           ]
         },
         {
-          "type": "suffix",
-          "inflected": "ης",
-          "base": "η",
-          "conditionsIn": [],
-          "conditionsOut": [
+          "type": "prefix",
+          "inflected": "ng",
+          "base": "g",
+          "conditionsIn": [
             "n"
-          ]
-        }
-      ]
-    },
-    "dative singular": {
-      "name": "dative singular",
-      "rules": [
-        {
-          "type": "suffix",
-          "inflected": "ω",
-          "base": "ος",
-          "conditionsIn": [],
+          ],
           "conditionsOut": [
             "n"
           ]
         },
         {
-          "type": "suffix",
-          "inflected": "α",
-          "base": "ας",
-          "conditionsIn": [],
+          "type": "prefix",
+          "inflected": "bp",
+          "base": "p",
+          "conditionsIn": [
+            "n"
+          ],
           "conditionsOut": [
             "n"
           ]
         },
         {
-          "type": "suffix",
-          "inflected": "ω",
-          "base": "ον",
-          "conditionsIn": [],
+          "type": "prefix",
+          "inflected": "dt",
+          "base": "t",
+          "conditionsIn": [
+            "n"
+          ],
           "conditionsOut": [
             "n"
-          ]
-        }
-      ]
-    },
-    "accusative singular": {
-      "name": "accusative singular",
-      "rules": [
-        {
-          "type": "suffix",
-          "inflected": "ον",
-          "base": "ος",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "αν",
-          "base": "α",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "αν",
-          "base": "ας",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "ην",
-          "base": "η",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        }
-      ]
-    },
-    "vocative singular": {
-      "name": "vocative singular",
-      "rules": [
-        {
-          "type": "suffix",
-          "inflected": "ε",
-          "base": "ος",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "α",
-          "base": "ας",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "η",
-          "base": "η",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        }
-      ]
-    },
-    "nominative plural": {
-      "name": "nominative plural",
-      "rules": [
-        {
-          "type": "suffix",
-          "inflected": "οι",
-          "base": "ος",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "αι",
-          "base": "α",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "αι",
-          "base": "ας",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "α",
-          "base": "ον",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "αι",
-          "base": "η",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        }
-      ]
-    },
-    "genitive plural": {
-      "name": "genitive plural",
-      "rules": [
-        {
-          "type": "suffix",
-          "inflected": "ων",
-          "base": "ος",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "ων",
-          "base": "α",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "ων",
-          "base": "ας",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "ων",
-          "base": "ον",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "ων",
-          "base": "η",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        }
-      ]
-    },
-    "dative plural": {
-      "name": "dative plural",
-      "rules": [
-        {
-          "type": "suffix",
-          "inflected": "οις",
-          "base": "ος",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "αις",
-          "base": "α",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "αις",
-          "base": "ας",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "οις",
-          "base": "ον",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "αις",
-          "base": "η",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        }
-      ]
-    },
-    "accusative plural": {
-      "name": "accusative plural",
-      "rules": [
-        {
-          "type": "suffix",
-          "inflected": "ους",
-          "base": "ος",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "ας",
-          "base": "α",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "α",
-          "base": "ον",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "ας",
-          "base": "η",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        }
-      ]
-    },
-    "vocative plural": {
-      "name": "vocative plural",
-      "rules": [
-        {
-          "type": "suffix",
-          "inflected": "οι",
-          "base": "ος",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "αι",
-          "base": "α",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "αι",
-          "base": "ας",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "α",
-          "base": "ον",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        },
-        {
-          "type": "suffix",
-          "inflected": "αι",
-          "base": "η",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "n"
-          ]
-        }
-      ]
-    },
-    "accusative singular masculine": {
-      "name": "accusative singular masculine",
-      "rules": [
-        {
-          "type": "suffix",
-          "inflected": "ον",
-          "base": "ος",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "adj"
-          ]
-        }
-      ]
-    },
-    "nominalization": {
-      "name": "nominalization",
-      "rules": [
-        {
-          "type": "suffix",
-          "inflected": "ος",
-          "base": "εω",
-          "conditionsIn": [],
-          "conditionsOut": [
-            "v"
           ]
         }
       ]
