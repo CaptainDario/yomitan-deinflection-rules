@@ -1062,10 +1062,10 @@
           "inflected": "able",
           "base": "",
           "conditionsIn": [
-            "v"
+            "adj"
           ],
           "conditionsOut": [
-            "adj"
+            "v"
           ]
         },
         {
@@ -1073,10 +1073,10 @@
           "inflected": "able",
           "base": "e",
           "conditionsIn": [
-            "v"
+            "adj"
           ],
           "conditionsOut": [
-            "adj"
+            "v"
           ]
         },
         {
@@ -1084,10 +1084,10 @@
           "inflected": "iable",
           "base": "y",
           "conditionsIn": [
-            "v"
+            "adj"
           ],
           "conditionsOut": [
-            "adj"
+            "v"
           ]
         },
         {
@@ -1095,10 +1095,10 @@
           "inflected": "bbable",
           "base": "b",
           "conditionsIn": [
-            "v"
+            "adj"
           ],
           "conditionsOut": [
-            "adj"
+            "v"
           ]
         },
         {
@@ -1106,10 +1106,10 @@
           "inflected": "ddable",
           "base": "d",
           "conditionsIn": [
-            "v"
+            "adj"
           ],
           "conditionsOut": [
-            "adj"
+            "v"
           ]
         },
         {
@@ -1117,10 +1117,10 @@
           "inflected": "ggable",
           "base": "g",
           "conditionsIn": [
-            "v"
+            "adj"
           ],
           "conditionsOut": [
-            "adj"
+            "v"
           ]
         },
         {
@@ -1128,10 +1128,10 @@
           "inflected": "kkable",
           "base": "k",
           "conditionsIn": [
-            "v"
+            "adj"
           ],
           "conditionsOut": [
-            "adj"
+            "v"
           ]
         },
         {
@@ -1139,10 +1139,10 @@
           "inflected": "llable",
           "base": "l",
           "conditionsIn": [
-            "v"
+            "adj"
           ],
           "conditionsOut": [
-            "adj"
+            "v"
           ]
         },
         {
@@ -1150,10 +1150,10 @@
           "inflected": "mmable",
           "base": "m",
           "conditionsIn": [
-            "v"
+            "adj"
           ],
           "conditionsOut": [
-            "adj"
+            "v"
           ]
         },
         {
@@ -1161,10 +1161,10 @@
           "inflected": "nnable",
           "base": "n",
           "conditionsIn": [
-            "v"
+            "adj"
           ],
           "conditionsOut": [
-            "adj"
+            "v"
           ]
         },
         {
@@ -1172,10 +1172,10 @@
           "inflected": "ppable",
           "base": "p",
           "conditionsIn": [
-            "v"
+            "adj"
           ],
           "conditionsOut": [
-            "adj"
+            "v"
           ]
         },
         {
@@ -1183,10 +1183,10 @@
           "inflected": "rrable",
           "base": "r",
           "conditionsIn": [
-            "v"
+            "adj"
           ],
           "conditionsOut": [
-            "adj"
+            "v"
           ]
         },
         {
@@ -1194,10 +1194,10 @@
           "inflected": "ssable",
           "base": "s",
           "conditionsIn": [
-            "v"
+            "adj"
           ],
           "conditionsOut": [
-            "adj"
+            "v"
           ]
         },
         {
@@ -1205,10 +1205,10 @@
           "inflected": "ttable",
           "base": "t",
           "conditionsIn": [
-            "v"
+            "adj"
           ],
           "conditionsOut": [
-            "adj"
+            "v"
           ]
         },
         {
@@ -1216,10 +1216,10 @@
           "inflected": "zzable",
           "base": "z",
           "conditionsIn": [
-            "v"
+            "adj"
           ],
           "conditionsOut": [
-            "adj"
+            "v"
           ]
         }
       ]

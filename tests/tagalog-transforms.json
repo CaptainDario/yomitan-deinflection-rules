@@ -1,136 +1,62 @@
 [
   {
-    "category": "prefixes",
+    "category": "ξανα-",
     "valid": true,
     "tests": [
       {
-        "term": "luto",
-        "source": "tagaluto",
-        "rule": "n",
+        "term": "ρώτησε",
+        "source": "ξαναρώτησε",
+        "rule": "v",
         "reasons": [
-          "taga-"
+          "ξανα-"
         ]
       },
       {
-        "term": "sigaw",
-        "source": "kasisigaw",
-        "rule": "n",
+        "term": "ανθίζω",
+        "source": "ξανανθίζω",
+        "rule": "v",
         "reasons": [
-          "kaka-"
+          "ξανα-"
         ]
       },
       {
-        "term": "isip",
-        "source": "kaiisip",
-        "rule": "n",
+        "term": "έβαλε",
+        "source": "ξανάβαλε",
+        "rule": "v",
         "reasons": [
-          "kaka-"
+          "ξανα-"
         ]
       },
       {
-        "term": "gamot",
-        "source": "manggagamot",
-        "rule": "n",
+        "term": "άρχισε",
+        "source": "ξανάρχισε",
+        "rule": "v",
         "reasons": [
-          "mang- + rep1"
+          "ξανα-"
         ]
       },
       {
-        "term": "pareho",
-        "source": "kapareho",
-        "rule": "adj",
+        "term": "είπα",
+        "source": "ξανάπα",
+        "rule": "v",
         "reasons": [
-          "ka-"
+          "ξανα-"
         ]
       },
       {
-        "term": "hina",
-        "source": "nakapanghihina",
-        "rule": "n",
+        "term": "πας",
+        "source": "ξαναπάς",
+        "rule": "v",
         "reasons": [
-          "nakapang- + rep1"
+          "ξανα-"
         ]
       },
       {
-        "term": "tulong",
-        "source": "nakatutulong",
-        "rule": "n",
+        "term": "λες",
+        "source": "ξαναλές",
+        "rule": "v",
         "reasons": [
-          "naka- + rep1"
-        ]
-      }
-    ]
-  },
-  {
-    "category": "sandwich",
-    "valid": true,
-    "tests": [
-      {
-        "term": "sira",
-        "source": "masiraan",
-        "rule": "n",
-        "reasons": [
-          "ma-...-an"
-        ]
-      }
-    ]
-  },
-  {
-    "category": "suffix",
-    "valid": true,
-    "tests": [
-      {
-        "term": "kain",
-        "source": "kainin",
-        "rule": "n",
-        "reasons": [
-          "-in"
-        ]
-      },
-      {
-        "term": "ako",
-        "source": "akong",
-        "rule": "n",
-        "reasons": [
-          "-ng"
-        ]
-      }
-    ]
-  },
-  {
-    "category": "irregulars",
-    "valid": true,
-    "tests": [
-      {
-        "term": "dalawa",
-        "source": "ikalawa",
-        "rule": "num",
-        "reasons": [
-          "ika-"
-        ]
-      },
-      {
-        "term": "dalawa",
-        "source": "pangalawa",
-        "rule": "num",
-        "reasons": [
-          "pang-"
-        ]
-      },
-      {
-        "term": "tatlo",
-        "source": "ikatlo",
-        "rule": "num",
-        "reasons": [
-          "ika-"
-        ]
-      },
-      {
-        "term": "tatlo",
-        "source": "pangatlo",
-        "rule": "num",
-        "reasons": [
-          "pang-"
+          "ξανα-"
         ]
       }
     ]
