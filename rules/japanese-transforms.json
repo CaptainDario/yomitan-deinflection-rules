@@ -222,6 +222,17 @@
         },
         {
           "type": "suffix",
+          "inflected": "へば",
+          "base": "う",
+          "conditionsIn": [
+            "-ば"
+          ],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "けば",
           "base": "く",
           "conditionsIn": [
@@ -1305,7 +1316,25 @@
         },
         {
           "type": "suffix",
+          "inflected": "さう",
+          "base": "い",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "adj-i"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "そう",
+          "base": "る",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v1"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "さう",
           "base": "る",
           "conditionsIn": [],
           "conditionsOut": [
@@ -1323,7 +1352,25 @@
         },
         {
           "type": "suffix",
+          "inflected": "ひさう",
+          "base": "う",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "きそう",
+          "base": "く",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "きさう",
           "base": "く",
           "conditionsIn": [],
           "conditionsOut": [
@@ -1341,7 +1388,25 @@
         },
         {
           "type": "suffix",
+          "inflected": "ぎさう",
+          "base": "ぐ",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "しそう",
+          "base": "す",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "しさう",
           "base": "す",
           "conditionsIn": [],
           "conditionsOut": [
@@ -1359,7 +1424,25 @@
         },
         {
           "type": "suffix",
+          "inflected": "ちさう",
+          "base": "つ",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "にそう",
+          "base": "ぬ",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "にさう",
           "base": "ぬ",
           "conditionsIn": [],
           "conditionsOut": [
@@ -1377,7 +1460,25 @@
         },
         {
           "type": "suffix",
+          "inflected": "びさう",
+          "base": "ぶ",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "みそう",
+          "base": "む",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "みさう",
           "base": "む",
           "conditionsIn": [],
           "conditionsOut": [
@@ -1395,7 +1496,25 @@
         },
         {
           "type": "suffix",
+          "inflected": "りさう",
+          "base": "る",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "じそう",
+          "base": "ずる",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "vz"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "じさう",
           "base": "ずる",
           "conditionsIn": [],
           "conditionsOut": [
@@ -1413,7 +1532,25 @@
         },
         {
           "type": "suffix",
+          "inflected": "しさう",
+          "base": "する",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "vs"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "為そう",
+          "base": "為る",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "vs"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "為さう",
           "base": "為る",
           "conditionsIn": [],
           "conditionsOut": [
@@ -1431,6 +1568,15 @@
         },
         {
           "type": "suffix",
+          "inflected": "きさう",
+          "base": "くる",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "vk"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "来そう",
           "base": "来る",
           "conditionsIn": [],
@@ -1440,7 +1586,25 @@
         },
         {
           "type": "suffix",
+          "inflected": "来さう",
+          "base": "来る",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "vk"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "來そう",
+          "base": "來る",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "vk"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "來さう",
           "base": "來る",
           "conditionsIn": [],
           "conditionsOut": [
@@ -3241,6 +3405,15 @@
         },
         {
           "type": "suffix",
+          "inflected": "はず",
+          "base": "う",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "ぜず",
           "base": "ずる",
           "conditionsIn": [],
@@ -3390,6 +3563,15 @@
         {
           "type": "suffix",
           "inflected": "わぬ",
+          "base": "う",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "はぬ",
           "base": "う",
           "conditionsIn": [],
           "conditionsOut": [
@@ -3575,6 +3757,17 @@
         },
         {
           "type": "suffix",
+          "inflected": "はん",
+          "base": "う",
+          "conditionsIn": [
+            "-ん"
+          ],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "ぜん",
           "base": "ずる",
           "conditionsIn": [
@@ -3736,6 +3929,15 @@
         {
           "type": "suffix",
           "inflected": "わんばかり",
+          "base": "う",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "はんばかり",
           "base": "う",
           "conditionsIn": [],
           "conditionsOut": [
@@ -3921,6 +4123,17 @@
         },
         {
           "type": "suffix",
+          "inflected": "はんとする",
+          "base": "う",
+          "conditionsIn": [
+            "vs"
+          ],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "ぜんとする",
           "base": "ずる",
           "conditionsIn": [
@@ -4090,6 +4303,15 @@
         },
         {
           "type": "suffix",
+          "inflected": "はむ",
+          "base": "う",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "ぜむ",
           "base": "ずる",
           "conditionsIn": [],
@@ -4239,6 +4461,15 @@
         {
           "type": "suffix",
           "inflected": "わざる",
+          "base": "う",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "はざる",
           "base": "う",
           "conditionsIn": [],
           "conditionsOut": [
@@ -4414,6 +4645,17 @@
         {
           "type": "suffix",
           "inflected": "わねば",
+          "base": "う",
+          "conditionsIn": [
+            "-ば"
+          ],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "はねば",
           "base": "う",
           "conditionsIn": [
             "-ば"
@@ -4627,6 +4869,17 @@
         {
           "type": "suffix",
           "inflected": "わせる",
+          "base": "う",
+          "conditionsIn": [
+            "v1"
+          ],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "はせる",
           "base": "う",
           "conditionsIn": [
             "v1"
@@ -4859,6 +5112,17 @@
         },
         {
           "type": "suffix",
+          "inflected": "はす",
+          "base": "う",
+          "conditionsIn": [
+            "v5sp"
+          ],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "じさす",
           "base": "ずる",
           "conditionsIn": [
@@ -4968,6 +5232,15 @@
         {
           "type": "suffix",
           "inflected": "え",
+          "base": "う",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "へ",
           "base": "う",
           "conditionsIn": [],
           "conditionsOut": [
@@ -5349,6 +5622,15 @@
         },
         {
           "type": "suffix",
+          "inflected": "ひ",
+          "base": "う",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "き",
           "base": "く",
           "conditionsIn": [],
@@ -5591,6 +5873,17 @@
         },
         {
           "type": "suffix",
+          "inflected": "はない",
+          "base": "う",
+          "conditionsIn": [
+            "adj-i"
+          ],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "じない",
           "base": "ずる",
           "conditionsIn": [
@@ -5781,6 +6074,17 @@
         {
           "type": "suffix",
           "inflected": "われる",
+          "base": "う",
+          "conditionsIn": [
+            "v1"
+          ],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "はれる",
           "base": "う",
           "conditionsIn": [
             "v1"
@@ -6443,6 +6747,17 @@
         },
         {
           "type": "suffix",
+          "inflected": "ひます",
+          "base": "う",
+          "conditionsIn": [
+            "-ます"
+          ],
+          "conditionsOut": [
+            "v5d"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "きます",
           "base": "く",
           "conditionsIn": [
@@ -6898,7 +7213,25 @@
         },
         {
           "type": "suffix",
+          "inflected": "やう",
+          "base": "る",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v1"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "おう",
+          "base": "う",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "はう",
           "base": "う",
           "conditionsIn": [],
           "conditionsOut": [
@@ -6916,7 +7249,25 @@
         },
         {
           "type": "suffix",
+          "inflected": "かう",
+          "base": "く",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "ごう",
+          "base": "ぐ",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "がう",
           "base": "ぐ",
           "conditionsIn": [],
           "conditionsOut": [
@@ -6934,7 +7285,25 @@
         },
         {
           "type": "suffix",
+          "inflected": "さう",
+          "base": "す",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "とう",
+          "base": "つ",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "たう",
           "base": "つ",
           "conditionsIn": [],
           "conditionsOut": [
@@ -6952,7 +7321,25 @@
         },
         {
           "type": "suffix",
+          "inflected": "なう",
+          "base": "ぬ",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "ぼう",
+          "base": "ぶ",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ばう",
           "base": "ぶ",
           "conditionsIn": [],
           "conditionsOut": [
@@ -6970,7 +7357,25 @@
         },
         {
           "type": "suffix",
+          "inflected": "まう",
+          "base": "む",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "ろう",
+          "base": "る",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "らう",
           "base": "る",
           "conditionsIn": [],
           "conditionsOut": [
@@ -6988,7 +7393,25 @@
         },
         {
           "type": "suffix",
+          "inflected": "じやう",
+          "base": "ずる",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "vz"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "しよう",
+          "base": "する",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "vs"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "しやう",
           "base": "する",
           "conditionsIn": [],
           "conditionsOut": [
@@ -7006,7 +7429,25 @@
         },
         {
           "type": "suffix",
+          "inflected": "為やう",
+          "base": "為る",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "vs"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "こよう",
+          "base": "くる",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "vk"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "こやう",
           "base": "くる",
           "conditionsIn": [],
           "conditionsOut": [
@@ -7024,7 +7465,25 @@
         },
         {
           "type": "suffix",
+          "inflected": "来やう",
+          "base": "来る",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "vk"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "來よう",
+          "base": "來る",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "vk"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "來やう",
           "base": "來る",
           "conditionsIn": [],
           "conditionsOut": [
@@ -7042,7 +7501,25 @@
         },
         {
           "type": "suffix",
+          "inflected": "ませう",
+          "base": "ます",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "-ます"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "かろう",
+          "base": "い",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "adj-i"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "からう",
           "base": "い",
           "conditionsIn": [],
           "conditionsOut": [
@@ -7412,6 +7889,17 @@
         },
         {
           "type": "suffix",
+          "inflected": "てゐる",
+          "base": "て",
+          "conditionsIn": [
+            "v1"
+          ],
+          "conditionsOut": [
+            "-て"
+          ]
+        },
+        {
+          "type": "suffix",
           "inflected": "ておる",
           "base": "て",
           "conditionsIn": [
@@ -7435,6 +7923,17 @@
         {
           "type": "suffix",
           "inflected": "でいる",
+          "base": "で",
+          "conditionsIn": [
+            "v1"
+          ],
+          "conditionsOut": [
+            "-て"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "でゐる",
           "base": "で",
           "conditionsIn": [
             "v1"
@@ -7485,6 +7984,39 @@
           ],
           "conditionsOut": [
             "adj-i"
+          ]
+        },
+        {
+          "type": "suffix",
+          "inflected": "ないでゐる",
+          "base": "ない",
+          "conditionsIn": [
+            "v1"
+          ],
+          "conditionsOut": [
+            "adj-i"
+          ]
+        }
+      ]
+    },
+    "-ふ": {
+      "name": "-ふ",
+      "description": "Historical kana orthography (歴史的仮名遣い) for the dictionary/terminal form of ワ行五段 verbs, used in pre-1946 and literary/classical Japanese (e.g. 思ふ for 思う).",
+      "i18n": [
+        {
+          "language": "ja",
+          "name": "～ふ（歴史的仮名遣い）",
+          "description": "「～う」の歴史的仮名遣い表記"
+        }
+      ],
+      "rules": [
+        {
+          "type": "suffix",
+          "inflected": "ふ",
+          "base": "う",
+          "conditionsIn": [],
+          "conditionsOut": [
+            "v5"
           ]
         }
       ]

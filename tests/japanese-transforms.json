@@ -19,6 +19,14 @@
       },
       {
         "term": "愛しい",
+        "source": "愛しさう",
+        "rule": "adj-i",
+        "reasons": [
+          "-そう"
+        ]
+      },
+      {
+        "term": "愛しい",
         "source": "愛しすぎる",
         "rule": "adj-i",
         "reasons": [
@@ -148,6 +156,22 @@
         "rule": "adj-i",
         "reasons": [
           "-がる"
+        ]
+      },
+      {
+        "term": "愛しい",
+        "source": "愛しかろう",
+        "rule": "adj-i",
+        "reasons": [
+          "volitional"
+        ]
+      },
+      {
+        "term": "愛しい",
+        "source": "愛しからう",
+        "rule": "adj-i",
+        "reasons": [
+          "volitional"
         ]
       }
     ]
@@ -412,6 +436,14 @@
       },
       {
         "term": "食べる",
+        "source": "食べさう",
+        "rule": "v1",
+        "reasons": [
+          "-そう"
+        ]
+      },
+      {
+        "term": "食べる",
         "source": "食べすぎる",
         "rule": "v1",
         "reasons": [
@@ -552,6 +584,15 @@
       },
       {
         "term": "食べる",
+        "source": "食べませう",
+        "rule": "v1",
+        "reasons": [
+          "-ます",
+          "volitional"
+        ]
+      },
+      {
+        "term": "食べる",
         "source": "食べましょっか",
         "rule": "v1",
         "reasons": [
@@ -562,6 +603,14 @@
       {
         "term": "食べる",
         "source": "食べよう",
+        "rule": "v1",
+        "reasons": [
+          "volitional"
+        ]
+      },
+      {
+        "term": "食べる",
+        "source": "食べやう",
         "rule": "v1",
         "reasons": [
           "volitional"
@@ -630,6 +679,15 @@
       {
         "term": "食べる",
         "source": "食べている",
+        "rule": "v1",
+        "reasons": [
+          "-て",
+          "-いる"
+        ]
+      },
+      {
+        "term": "食べる",
+        "source": "食べてゐる",
         "rule": "v1",
         "reasons": [
           "-て",
@@ -969,6 +1027,14 @@
       },
       {
         "term": "買う",
+        "source": "買ひさう",
+        "rule": "v5",
+        "reasons": [
+          "-そう"
+        ]
+      },
+      {
+        "term": "買う",
         "source": "買いすぎる",
         "rule": "v5",
         "reasons": [
@@ -1109,6 +1175,15 @@
       },
       {
         "term": "買う",
+        "source": "買いませう",
+        "rule": "v5",
+        "reasons": [
+          "-ます",
+          "volitional"
+        ]
+      },
+      {
+        "term": "買う",
         "source": "買いましょっか",
         "rule": "v5",
         "reasons": [
@@ -1119,6 +1194,14 @@
       {
         "term": "買う",
         "source": "買おう",
+        "rule": "v5",
+        "reasons": [
+          "volitional"
+        ]
+      },
+      {
+        "term": "買う",
+        "source": "買はう",
         "rule": "v5",
         "reasons": [
           "volitional"
@@ -1188,6 +1271,15 @@
       {
         "term": "買う",
         "source": "買っている",
+        "rule": "v5",
+        "reasons": [
+          "-て",
+          "-いる"
+        ]
+      },
+      {
+        "term": "買う",
+        "source": "買ってゐる",
         "rule": "v5",
         "reasons": [
           "-て",
@@ -1564,6 +1656,14 @@
       },
       {
         "term": "行く",
+        "source": "行きさう",
+        "rule": "v5",
+        "reasons": [
+          "-そう"
+        ]
+      },
+      {
+        "term": "行く",
         "source": "行きすぎる",
         "rule": "v5",
         "reasons": [
@@ -1704,6 +1804,15 @@
       },
       {
         "term": "行く",
+        "source": "行きませう",
+        "rule": "v5",
+        "reasons": [
+          "-ます",
+          "volitional"
+        ]
+      },
+      {
+        "term": "行く",
         "source": "行きましょっか",
         "rule": "v5",
         "reasons": [
@@ -1714,6 +1823,14 @@
       {
         "term": "行く",
         "source": "行こう",
+        "rule": "v5",
+        "reasons": [
+          "volitional"
+        ]
+      },
+      {
+        "term": "行く",
+        "source": "行かう",
         "rule": "v5",
         "reasons": [
           "volitional"
@@ -1783,6 +1900,15 @@
       {
         "term": "行く",
         "source": "行っている",
+        "rule": "v5",
+        "reasons": [
+          "-て",
+          "-いる"
+        ]
+      },
+      {
+        "term": "行く",
+        "source": "行ってゐる",
         "rule": "v5",
         "reasons": [
           "-て",
@@ -2159,6 +2285,14 @@
       },
       {
         "term": "泳ぐ",
+        "source": "泳ぎさう",
+        "rule": "v5",
+        "reasons": [
+          "-そう"
+        ]
+      },
+      {
+        "term": "泳ぐ",
         "source": "泳ぎすぎる",
         "rule": "v5",
         "reasons": [
@@ -2299,6 +2433,15 @@
       },
       {
         "term": "泳ぐ",
+        "source": "泳ぎませう",
+        "rule": "v5",
+        "reasons": [
+          "-ます",
+          "volitional"
+        ]
+      },
+      {
+        "term": "泳ぐ",
         "source": "泳ぎましょっか",
         "rule": "v5",
         "reasons": [
@@ -2309,6 +2452,14 @@
       {
         "term": "泳ぐ",
         "source": "泳ごう",
+        "rule": "v5",
+        "reasons": [
+          "volitional"
+        ]
+      },
+      {
+        "term": "泳ぐ",
+        "source": "泳がう",
         "rule": "v5",
         "reasons": [
           "volitional"
@@ -2378,6 +2529,15 @@
       {
         "term": "泳ぐ",
         "source": "泳いでいる",
+        "rule": "v5",
+        "reasons": [
+          "-て",
+          "-いる"
+        ]
+      },
+      {
+        "term": "泳ぐ",
+        "source": "泳いでゐる",
         "rule": "v5",
         "reasons": [
           "-て",
@@ -2745,6 +2905,14 @@
       },
       {
         "term": "話す",
+        "source": "話しさう",
+        "rule": "v5",
+        "reasons": [
+          "-そう"
+        ]
+      },
+      {
+        "term": "話す",
         "source": "話しすぎる",
         "rule": "v5",
         "reasons": [
@@ -2885,6 +3053,15 @@
       },
       {
         "term": "話す",
+        "source": "話しませう",
+        "rule": "v5",
+        "reasons": [
+          "-ます",
+          "volitional"
+        ]
+      },
+      {
+        "term": "話す",
         "source": "話しましょっか",
         "rule": "v5",
         "reasons": [
@@ -2895,6 +3072,14 @@
       {
         "term": "話す",
         "source": "話そう",
+        "rule": "v5",
+        "reasons": [
+          "volitional"
+        ]
+      },
+      {
+        "term": "話す",
+        "source": "話さう",
         "rule": "v5",
         "reasons": [
           "volitional"
@@ -2955,6 +3140,15 @@
       {
         "term": "話す",
         "source": "話している",
+        "rule": "v5",
+        "reasons": [
+          "-て",
+          "-いる"
+        ]
+      },
+      {
+        "term": "話す",
+        "source": "話してゐる",
         "rule": "v5",
         "reasons": [
           "-て",
@@ -3368,6 +3562,14 @@
       },
       {
         "term": "待つ",
+        "source": "待ちさう",
+        "rule": "v5",
+        "reasons": [
+          "-そう"
+        ]
+      },
+      {
+        "term": "待つ",
         "source": "待ちすぎる",
         "rule": "v5",
         "reasons": [
@@ -3508,6 +3710,15 @@
       },
       {
         "term": "待つ",
+        "source": "待ちませう",
+        "rule": "v5",
+        "reasons": [
+          "-ます",
+          "volitional"
+        ]
+      },
+      {
+        "term": "待つ",
         "source": "待ちましょっか",
         "rule": "v5",
         "reasons": [
@@ -3518,6 +3729,14 @@
       {
         "term": "待つ",
         "source": "待とう",
+        "rule": "v5",
+        "reasons": [
+          "volitional"
+        ]
+      },
+      {
+        "term": "待つ",
+        "source": "待たう",
         "rule": "v5",
         "reasons": [
           "volitional"
@@ -3587,6 +3806,15 @@
       {
         "term": "待つ",
         "source": "待っている",
+        "rule": "v5",
+        "reasons": [
+          "-て",
+          "-いる"
+        ]
+      },
+      {
+        "term": "待つ",
+        "source": "待ってゐる",
         "rule": "v5",
         "reasons": [
           "-て",
@@ -3963,6 +4191,14 @@
       },
       {
         "term": "死ぬ",
+        "source": "死にさう",
+        "rule": "v5",
+        "reasons": [
+          "-そう"
+        ]
+      },
+      {
+        "term": "死ぬ",
         "source": "死にすぎる",
         "rule": "v5",
         "reasons": [
@@ -4103,6 +4339,15 @@
       },
       {
         "term": "死ぬ",
+        "source": "死にませう",
+        "rule": "v5",
+        "reasons": [
+          "-ます",
+          "volitional"
+        ]
+      },
+      {
+        "term": "死ぬ",
         "source": "死にましょっか",
         "rule": "v5",
         "reasons": [
@@ -4113,6 +4358,14 @@
       {
         "term": "死ぬ",
         "source": "死のう",
+        "rule": "v5",
+        "reasons": [
+          "volitional"
+        ]
+      },
+      {
+        "term": "死ぬ",
+        "source": "死なう",
         "rule": "v5",
         "reasons": [
           "volitional"
@@ -4182,6 +4435,15 @@
       {
         "term": "死ぬ",
         "source": "死んでいる",
+        "rule": "v5",
+        "reasons": [
+          "-て",
+          "-いる"
+        ]
+      },
+      {
+        "term": "死ぬ",
+        "source": "死んでゐる",
         "rule": "v5",
         "reasons": [
           "-て",
@@ -4549,6 +4811,14 @@
       },
       {
         "term": "遊ぶ",
+        "source": "遊びさう",
+        "rule": "v5",
+        "reasons": [
+          "-そう"
+        ]
+      },
+      {
+        "term": "遊ぶ",
         "source": "遊びすぎる",
         "rule": "v5",
         "reasons": [
@@ -4689,6 +4959,15 @@
       },
       {
         "term": "遊ぶ",
+        "source": "遊びませう",
+        "rule": "v5",
+        "reasons": [
+          "-ます",
+          "volitional"
+        ]
+      },
+      {
+        "term": "遊ぶ",
         "source": "遊びましょっか",
         "rule": "v5",
         "reasons": [
@@ -4699,6 +4978,14 @@
       {
         "term": "遊ぶ",
         "source": "遊ぼう",
+        "rule": "v5",
+        "reasons": [
+          "volitional"
+        ]
+      },
+      {
+        "term": "遊ぶ",
+        "source": "遊ばう",
         "rule": "v5",
         "reasons": [
           "volitional"
@@ -4768,6 +5055,15 @@
       {
         "term": "遊ぶ",
         "source": "遊んでいる",
+        "rule": "v5",
+        "reasons": [
+          "-て",
+          "-いる"
+        ]
+      },
+      {
+        "term": "遊ぶ",
+        "source": "遊んでゐる",
         "rule": "v5",
         "reasons": [
           "-て",
@@ -5135,6 +5431,14 @@
       },
       {
         "term": "飲む",
+        "source": "飲みさう",
+        "rule": "v5",
+        "reasons": [
+          "-そう"
+        ]
+      },
+      {
+        "term": "飲む",
         "source": "飲みすぎる",
         "rule": "v5",
         "reasons": [
@@ -5275,6 +5579,15 @@
       },
       {
         "term": "飲む",
+        "source": "飲みませう",
+        "rule": "v5",
+        "reasons": [
+          "-ます",
+          "volitional"
+        ]
+      },
+      {
+        "term": "飲む",
         "source": "飲みましょっか",
         "rule": "v5",
         "reasons": [
@@ -5285,6 +5598,14 @@
       {
         "term": "飲む",
         "source": "飲もう",
+        "rule": "v5",
+        "reasons": [
+          "volitional"
+        ]
+      },
+      {
+        "term": "飲む",
+        "source": "飲まう",
         "rule": "v5",
         "reasons": [
           "volitional"
@@ -5354,6 +5675,15 @@
       {
         "term": "飲む",
         "source": "飲んでいる",
+        "rule": "v5",
+        "reasons": [
+          "-て",
+          "-いる"
+        ]
+      },
+      {
+        "term": "飲む",
+        "source": "飲んでゐる",
         "rule": "v5",
         "reasons": [
           "-て",
@@ -5721,6 +6051,14 @@
       },
       {
         "term": "作る",
+        "source": "作りさう",
+        "rule": "v5",
+        "reasons": [
+          "-そう"
+        ]
+      },
+      {
+        "term": "作る",
         "source": "作りすぎる",
         "rule": "v5",
         "reasons": [
@@ -5845,6 +6183,15 @@
       },
       {
         "term": "作る",
+        "source": "作りませう",
+        "rule": "v5",
+        "reasons": [
+          "-ます",
+          "volitional"
+        ]
+      },
+      {
+        "term": "作る",
         "source": "作りましょっか",
         "rule": "v5",
         "reasons": [
@@ -5855,6 +6202,14 @@
       {
         "term": "作る",
         "source": "作ろう",
+        "rule": "v5",
+        "reasons": [
+          "volitional"
+        ]
+      },
+      {
+        "term": "作る",
+        "source": "作らう",
         "rule": "v5",
         "reasons": [
           "volitional"
@@ -5924,6 +6279,15 @@
       {
         "term": "作る",
         "source": "作っている",
+        "rule": "v5",
+        "reasons": [
+          "-て",
+          "-いる"
+        ]
+      },
+      {
+        "term": "作る",
+        "source": "作ってゐる",
         "rule": "v5",
         "reasons": [
           "-て",
@@ -6419,6 +6783,14 @@
       },
       {
         "term": "為る",
+        "source": "為さう",
+        "rule": "vs",
+        "reasons": [
+          "-そう"
+        ]
+      },
+      {
+        "term": "為る",
         "source": "為すぎる",
         "rule": "vs",
         "reasons": [
@@ -6551,6 +6923,15 @@
       },
       {
         "term": "為る",
+        "source": "為ませう",
+        "rule": "vs",
+        "reasons": [
+          "-ます",
+          "volitional"
+        ]
+      },
+      {
+        "term": "為る",
         "source": "為ましょっか",
         "rule": "vs",
         "reasons": [
@@ -6561,6 +6942,14 @@
       {
         "term": "為る",
         "source": "為よう",
+        "rule": "vs",
+        "reasons": [
+          "volitional"
+        ]
+      },
+      {
+        "term": "為る",
+        "source": "為やう",
         "rule": "vs",
         "reasons": [
           "volitional"
@@ -6629,6 +7018,15 @@
       {
         "term": "為る",
         "source": "為ている",
+        "rule": "vs",
+        "reasons": [
+          "-て",
+          "-いる"
+        ]
+      },
+      {
+        "term": "為る",
+        "source": "為てゐる",
         "rule": "vs",
         "reasons": [
           "-て",
@@ -7016,6 +7414,14 @@
       },
       {
         "term": "する",
+        "source": "しさう",
+        "rule": "vs",
+        "reasons": [
+          "-そう"
+        ]
+      },
+      {
+        "term": "する",
         "source": "しすぎる",
         "rule": "vs",
         "reasons": [
@@ -7156,6 +7562,15 @@
       },
       {
         "term": "する",
+        "source": "しませう",
+        "rule": "vs",
+        "reasons": [
+          "-ます",
+          "volitional"
+        ]
+      },
+      {
+        "term": "する",
         "source": "しましょっか",
         "rule": "vs",
         "reasons": [
@@ -7166,6 +7581,14 @@
       {
         "term": "する",
         "source": "しよう",
+        "rule": "vs",
+        "reasons": [
+          "volitional"
+        ]
+      },
+      {
+        "term": "する",
+        "source": "しやう",
         "rule": "vs",
         "reasons": [
           "volitional"
@@ -7244,6 +7667,15 @@
       {
         "term": "する",
         "source": "している",
+        "rule": "vs",
+        "reasons": [
+          "-て",
+          "-いる"
+        ]
+      },
+      {
+        "term": "する",
+        "source": "してゐる",
         "rule": "vs",
         "reasons": [
           "-て",
@@ -7614,6 +8046,14 @@
       },
       {
         "term": "来る",
+        "source": "来さう",
+        "rule": "vk",
+        "reasons": [
+          "-そう"
+        ]
+      },
+      {
+        "term": "来る",
         "source": "来すぎる",
         "rule": "vk",
         "reasons": [
@@ -7754,6 +8194,15 @@
       },
       {
         "term": "来る",
+        "source": "来ませう",
+        "rule": "vk",
+        "reasons": [
+          "-ます",
+          "volitional"
+        ]
+      },
+      {
+        "term": "来る",
         "source": "来ましょっか",
         "rule": "vk",
         "reasons": [
@@ -7764,6 +8213,14 @@
       {
         "term": "来る",
         "source": "来よう",
+        "rule": "vk",
+        "reasons": [
+          "volitional"
+        ]
+      },
+      {
+        "term": "来る",
+        "source": "来やう",
         "rule": "vk",
         "reasons": [
           "volitional"
@@ -7832,6 +8289,15 @@
       {
         "term": "来る",
         "source": "来ている",
+        "rule": "vk",
+        "reasons": [
+          "-て",
+          "-いる"
+        ]
+      },
+      {
+        "term": "来る",
+        "source": "来てゐる",
         "rule": "vk",
         "reasons": [
           "-て",
@@ -8167,6 +8633,14 @@
       },
       {
         "term": "來る",
+        "source": "來さう",
+        "rule": "vk",
+        "reasons": [
+          "-そう"
+        ]
+      },
+      {
+        "term": "來る",
         "source": "來すぎる",
         "rule": "vk",
         "reasons": [
@@ -8307,6 +8781,15 @@
       },
       {
         "term": "來る",
+        "source": "來ませう",
+        "rule": "vk",
+        "reasons": [
+          "-ます",
+          "volitional"
+        ]
+      },
+      {
+        "term": "來る",
         "source": "來ましょっか",
         "rule": "vk",
         "reasons": [
@@ -8317,6 +8800,14 @@
       {
         "term": "來る",
         "source": "來よう",
+        "rule": "vk",
+        "reasons": [
+          "volitional"
+        ]
+      },
+      {
+        "term": "來る",
+        "source": "來やう",
         "rule": "vk",
         "reasons": [
           "volitional"
@@ -8386,6 +8877,15 @@
       {
         "term": "來る",
         "source": "來ている",
+        "rule": "vk",
+        "reasons": [
+          "-て",
+          "-いる"
+        ]
+      },
+      {
+        "term": "來る",
+        "source": "來てゐる",
         "rule": "vk",
         "reasons": [
           "-て",
@@ -8721,6 +9221,14 @@
       },
       {
         "term": "くる",
+        "source": "きさう",
+        "rule": "vk",
+        "reasons": [
+          "-そう"
+        ]
+      },
+      {
+        "term": "くる",
         "source": "きすぎる",
         "rule": "vk",
         "reasons": [
@@ -8861,6 +9369,15 @@
       },
       {
         "term": "くる",
+        "source": "きませう",
+        "rule": "vk",
+        "reasons": [
+          "-ます",
+          "volitional"
+        ]
+      },
+      {
+        "term": "くる",
         "source": "きましょっか",
         "rule": "vk",
         "reasons": [
@@ -8871,6 +9388,14 @@
       {
         "term": "くる",
         "source": "こよう",
+        "rule": "vk",
+        "reasons": [
+          "volitional"
+        ]
+      },
+      {
+        "term": "くる",
+        "source": "こやう",
         "rule": "vk",
         "reasons": [
           "volitional"
@@ -8939,6 +9464,15 @@
       {
         "term": "くる",
         "source": "きている",
+        "rule": "vk",
+        "reasons": [
+          "-て",
+          "-いる"
+        ]
+      },
+      {
+        "term": "くる",
+        "source": "きてゐる",
         "rule": "vk",
         "reasons": [
           "-て",
@@ -9402,6 +9936,14 @@
       },
       {
         "term": "論ずる",
+        "source": "論じさう",
+        "rule": "vz",
+        "reasons": [
+          "-そう"
+        ]
+      },
+      {
+        "term": "論ずる",
         "source": "論じすぎる",
         "rule": "vz",
         "reasons": [
@@ -9534,7 +10076,24 @@
       },
       {
         "term": "論ずる",
+        "source": "論じませう",
+        "rule": "vz",
+        "reasons": [
+          "-ます",
+          "volitional"
+        ]
+      },
+      {
+        "term": "論ずる",
         "source": "論じよう",
+        "rule": "vz",
+        "reasons": [
+          "volitional"
+        ]
+      },
+      {
+        "term": "論ずる",
+        "source": "論じやう",
         "rule": "vz",
         "reasons": [
           "volitional"
@@ -9568,6 +10127,15 @@
       {
         "term": "論ずる",
         "source": "論じている",
+        "rule": "vz",
+        "reasons": [
+          "-て",
+          "-いる"
+        ]
+      },
+      {
+        "term": "論ずる",
+        "source": "論じてゐる",
         "rule": "vz",
         "reasons": [
           "-て",
@@ -10822,6 +11390,30 @@
     ]
   },
   {
+    "category": "ないでいる",
+    "valid": true,
+    "tests": [
+      {
+        "term": "食べる",
+        "source": "食べないでいる",
+        "rule": "v1",
+        "reasons": [
+          "negative",
+          "-いる"
+        ]
+      },
+      {
+        "term": "食べる",
+        "source": "食べないでゐる",
+        "rule": "v1",
+        "reasons": [
+          "negative",
+          "-いる"
+        ]
+      }
+    ]
+  },
+  {
     "category": "kawaii",
     "valid": true,
     "tests": [
@@ -10847,6 +11439,214 @@
         "rule": "adj-i",
         "reasons": [
           "-げ"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "historical kana (歴史的仮名遣い)",
+    "valid": true,
+    "tests": [
+      {
+        "term": "思う",
+        "source": "思ふ",
+        "rule": "v5",
+        "reasons": [
+          "-ふ"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思へば",
+        "rule": "v5",
+        "reasons": [
+          "-ば"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思はず",
+        "rule": "v5",
+        "reasons": [
+          "-ず"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思はぬ",
+        "rule": "v5",
+        "reasons": [
+          "-ぬ"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思はん",
+        "rule": "v5",
+        "reasons": [
+          "-ん"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思はんばかり",
+        "rule": "v5",
+        "reasons": [
+          "-んばかり"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思はんとする",
+        "rule": "v5",
+        "reasons": [
+          "-んとする"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思はむ",
+        "rule": "v5",
+        "reasons": [
+          "-む"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思はざる",
+        "rule": "v5",
+        "reasons": [
+          "-ざる"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思はねば",
+        "rule": "v5",
+        "reasons": [
+          "-ねば"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思はせる",
+        "rule": "v5",
+        "reasons": [
+          "causative"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思はす",
+        "rule": "v5",
+        "reasons": [
+          "short causative"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思へ",
+        "rule": "v5",
+        "reasons": [
+          "imperative"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思ひ",
+        "rule": "v5",
+        "reasons": [
+          "continuative"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思はない",
+        "rule": "v5",
+        "reasons": [
+          "negative"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思はれる",
+        "rule": "v5",
+        "reasons": [
+          "passive"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思ひます",
+        "rule": "v5",
+        "reasons": [
+          "-ます"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思はう",
+        "rule": "v5",
+        "reasons": [
+          "volitional"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "historical kana (歴史的仮名遣い) - combinations",
+    "valid": true,
+    "tests": [
+      {
+        "term": "思う",
+        "source": "思はせられたくない",
+        "rule": "v5",
+        "reasons": [
+          "causative",
+          "potential or passive",
+          "-たい",
+          "negative"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思ってしまふ",
+        "rule": "v5",
+        "reasons": [
+          "-て",
+          "-しまう",
+          "-ふ"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思ってしまひました",
+        "rule": "v5",
+        "reasons": [
+          "-て",
+          "-しまう",
+          "-ます",
+          "-た"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思ってしまはう",
+        "rule": "v5",
+        "reasons": [
+          "-て",
+          "-しまう",
+          "volitional"
+        ]
+      },
+      {
+        "term": "思う",
+        "source": "思ってゐぬ",
+        "rule": "v5",
+        "reasons": [
+          "-て",
+          "-いる",
+          "-ぬ"
         ]
       }
     ]
